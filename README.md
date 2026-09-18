@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-50 projects.
+52 projects.
 
 ### SDKs
 
@@ -22,6 +22,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [typesafe-rs](https://github.com/AbdelStark/typesafe-rs) — Evaluate a state against named questions \(noul, choice, score\) and get one typed answer per question\.
 - [typesafe-sdk](https://github.com/joshmn/typesafe-sdk) — A Ruby client for the TypeSafe System One API\.
 - [typesafe-sdk-go](https://github.com/Tangerg/typesafe-sdk-go) — Go SDK for the TypeSafe AI API — typed questions in, probability distributions out\.
+- [typesafe-sdk-php](https://github.com/Butochnikov/typesafe-sdk-php) — PHP client for the TypeSafe AI System One API\.
 - [typesafeai-dotnet-sdk](https://github.com/saibimajdi/typesafeai-dotnet-sdk) — Community \.NET SDK for the TypeSafe AI System One API — typed noul, choice, and score questions with structured, confidence-scored answers\. Not affiliated with TypeSafe AI\.
 - [zio-typesafe-ai](https://github.com/jamesward/zio-typesafe-ai) — A Scala 3 / ZIO library for TypeSafe AI's Jev / System One API — a "System One model" that answers typed, atomic questions about a piece of state instead of generating text\.
 
@@ -33,6 +34,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [hono-jev-router](https://github.com/yusukebe/hono-jev-router) — Hono router that uses TypeSafe Jev to match HTTP requests against natural-language route descriptions\.
 - [Jev MCP](https://github.com/jkudish/jev-mcp) — MCP server that uses TypeSafe Jev for claim verification, content screening, and semantic candidate ranking\.
 - [jev-starter](https://github.com/hamakyo/jev-starter) — Typed, policy-driven decision workflows on top of TypeSafe AI Jev: confidence routing, fallbacks, evaluation, and RAG patterns for TypeScript apps\.
+- [laravel-typesafe-jev](https://github.com/Butochnikov/laravel-typesafe-jev) — Unofficial Laravel integration for TypeSafe Jev AI with typed responses, async requests, scoped dependency injection, and testing fakes\.
 - [pg\_typesafe](https://github.com/giuliosmall/pg_typesafe) — PostgreSQL extension that calls TypeSafe Jev from SQL for Choice, Noul, and Score, including batched detect and classify\.
 - [ruby\_llm-typesafe](https://github.com/kieranklaassen/ruby_llm-typesafe) — TypeSafe structured-output provider for RubyLLM 2
 - [Typesafe MCP](https://github.com/itsmostafa/typesafe-mcp) — MCP server that exposes TypeSafe Jev structured evaluations to coding agents and desktop clients\.
