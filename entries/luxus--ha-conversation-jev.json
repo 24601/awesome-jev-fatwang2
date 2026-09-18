@@ -1,0 +1,6 @@
+{
+  "name": "ha-conversation-jev",
+  "repository": "luxus/ha-conversation-jev",
+  "description": "Home Assistant custom conversation agent: Jev (TypeSafe System One, jev-latest) classifies an utterance, then either calls a light service (v0 fast path) or hands off to the SpaceXAI Grok conversation agent.",
+  "category": "integration"
+}
