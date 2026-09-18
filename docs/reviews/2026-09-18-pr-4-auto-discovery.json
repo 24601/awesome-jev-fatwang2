@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-18T04:07:17.224Z",
+  "repository": "fatwang2/awesome-jev",
+  "pullRequest": 4,
+  "headSha": "244f987c59714dffe819c3e50a5388a0b33950dd",
+  "runUrl": "https://github.com/fatwang2/awesome-jev/actions/runs/35305728180",
+  "policyTitle": "Jev project submission",
+  "policyHash": "491c24b04942a26363fa8b6ca9547f146751d889187aa1ebdd421ff777ad164f",
+  "stateHash": "ea3d3ffae694af70cebc0ba1bdd94589ac779664734e096855a1dc36353066bc",
+  "sourceCommit": "924aa31992a239734a63bae3342b435654ad18b3",
+  "model": "jev-1.13.0",
+  "answers": {
+    "uses_jev": {
+      "type": "noul",
+      "noul": 0.93
+    },
+    "description_supported": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "usable": {
+      "type": "noul",
+      "noul": 0.97
+    },
+    "category": {
+      "type": "choice",
+      "choice": "developer_tools",
+      "confidence": 0.87,
+      "probabilities": {
+        "applications": 0,
+        "integration": 0.09,
+        "developer_tools": 0.89,
+        "research": 0,
+        "games": 0,
+        "other": 0.02,
+        "search": 0,
+        "sdk": 0
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 9564,
+    "output_tokens": 126
+  },
+  "latencyMs": 226,
+  "decision": "recommended",
+  "category": "developer_tools",
+  "categoryConfidence": 0.87,
+  "checks": [
+    {
+      "id": "uses_jev",
+      "title": "Concrete Jev integration",
+      "probability": 0.93,
+      "status": "pass",
+      "accept": 0.85,
+      "reject": 0.2
+    },
+    {
+      "id": "description_supported",
+      "title": "Description supported by evidence",
+      "probability": 0.94,
+      "status": "pass",
+      "accept": 0.8,
+      "reject": 0.2
+    },
+    {
+      "id": "usable",
+      "title": "Usable setup documentation",
+      "probability": 0.97,
+      "status": "pass",
+      "accept": 0.8,
+      "reject": 0.2
+    }
+  ],
+  "reasons": [],
+  "evidence": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/fatwang2/jev-review-action/blob/924aa31992a239734a63bae3342b435654ad18b3/README.md",
+      "sha": "b1937d67bfd2cf8f25c37c9c75d362137b54fd85",
+      "truncated": false
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/fatwang2/jev-review-action/blob/924aa31992a239734a63bae3342b435654ad18b3/package.json",
+      "sha": "c61b9fd7a55c3c15819ca28db6bfa2505e31212f",
+      "truncated": false
+    },
+    {
+      "path": "src/index.mjs",
+      "url": "https://github.com/fatwang2/jev-review-action/blob/924aa31992a239734a63bae3342b435654ad18b3/src/index.mjs",
+      "sha": "d508c93d9f5d7e15460edf4f0cb59246650a263d",
+      "truncated": false
+    },
+    {
+      "path": "src/discovery.mjs",
+      "url": "https://github.com/fatwang2/jev-review-action/blob/924aa31992a239734a63bae3342b435654ad18b3/src/discovery.mjs",
+      "sha": "c91ac3a7d4cca1e5d00184daadecc35bd7af27c1",
+      "truncated": false
+    },
+    {
+      "path": "src/http.mjs",
+      "url": "https://github.com/fatwang2/jev-review-action/blob/924aa31992a239734a63bae3342b435654ad18b3/src/http.mjs",
+      "sha": "4b095ba8669408ac30fcba507eb64bcba6421e7a",
+      "truncated": false
+    },
+    {
+      "path": "src/render.mjs",
+      "url": "https://github.com/fatwang2/jev-review-action/blob/924aa31992a239734a63bae3342b435654ad18b3/src/render.mjs",
+      "sha": "8edd6f56ee32188f4e7da9dc96d559cbabe505b8",
+      "truncated": false
+    },
+    {
+      "path": "src/typesafe.mjs",
+      "url": "https://github.com/fatwang2/jev-review-action/blob/924aa31992a239734a63bae3342b435654ad18b3/src/typesafe.mjs",
+      "sha": "a96acc2dbe1dd28af37fd2c43989f5d436212bf5",
+      "truncated": false
+    },
+    {
+      "path": "bin/review.mjs",
+      "url": "https://github.com/fatwang2/jev-review-action/blob/924aa31992a239734a63bae3342b435654ad18b3/bin/review.mjs",
+      "sha": "b311c4d2d0866cc5d39d381e7cfd0ef13eaad2d0",
+      "truncated": false
+    }
+  ],
+  "warnings": [],
+  "discovery": {
+    "scannedFiles": 10,
+    "scannedBytes": 33823,
+    "failedFiles": 0,
+    "candidateFiles": 10,
+    "selectedPaths": [
+      "src/index.mjs",
+      "src/discovery.mjs",
+      "src/http.mjs",
+      "src/render.mjs",
+      "src/typesafe.mjs",
+      "bin/review.mjs"
+    ]
+  }
+}
