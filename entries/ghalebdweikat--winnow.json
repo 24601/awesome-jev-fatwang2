@@ -1,0 +1,6 @@
+{
+  "name": "Winnow",
+  "repository": "GhalebDweikat/winnow",
+  "description": "Claude Code tool-output filter that uses TypeSafe Jev to judge which blocks are relevant to the current task.",
+  "category": "developer_tools"
+}

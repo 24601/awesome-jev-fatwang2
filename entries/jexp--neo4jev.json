@@ -1,0 +1,6 @@
+{
+  "name": "neo4jev",
+  "repository": "jexp/neo4jev",
+  "description": "Neo4j graph navigation demo that uses TypeSafe Jev to select relationships and check goals during beam search.",
+  "category": "search"
+}
