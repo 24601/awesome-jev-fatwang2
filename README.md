@@ -6,10 +6,11 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-45 projects.
+50 projects.
 
 ### SDKs
 
+- [advocaat](https://github.com/pithings/advocaat) — A small, type-safe client for asking AI questions about your data, powered by TypeSafe Jev\.
 - [jev](https://github.com/dannote/jev) — TypeSafe Jev for OTP: reply to Jev from a GenServer and pattern match on its answer
 - [jev-go](https://github.com/Gaurav-Gosain/jev-go) — Go client for TypeSafe's System One API and its model Jev: typed judgments and calibrated probabilities instead of generated text
 - [jev-go](https://github.com/Stumble/jev-go) — An independent Go SDK for TypeSafe AI's Jev / System One API\.
@@ -17,8 +18,12 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [TypeSafe Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python) — Official Python client for TypeSafe's typed decision API, with synchronous and asynchronous clients\.
 - [typesafe\_sdk](https://github.com/nshkrdotcom/typesafe_sdk) — typesafe\_sdk is the Elixir SDK for TypeSafe AI and its first System One model, Jev\.
 - [typesafe\_sdk\_ex](https://github.com/vinnie357/typesafe_sdk_ex) — Typesafe AI SDK in Elixir using Req
+- [typesafe-ai](https://github.com/Twister915/typesafe-ai) — typesafe-ai brings TypeSafe's System One evaluation API into Rust as small, typed judgments that fit inside ordinary application code\.
+- [typesafe-rs](https://github.com/AbdelStark/typesafe-rs) — Evaluate a state against named questions \(noul, choice, score\) and get one typed answer per question\.
 - [typesafe-sdk](https://github.com/joshmn/typesafe-sdk) — A Ruby client for the TypeSafe System One API\.
 - [typesafe-sdk-go](https://github.com/Tangerg/typesafe-sdk-go) — Go SDK for the TypeSafe AI API — typed questions in, probability distributions out\.
+- [typesafeai-dotnet-sdk](https://github.com/saibimajdi/typesafeai-dotnet-sdk) — Community \.NET SDK for the TypeSafe AI System One API — typed noul, choice, and score questions with structured, confidence-scored answers\. Not affiliated with TypeSafe AI\.
+- [zio-typesafe-ai](https://github.com/jamesward/zio-typesafe-ai) — A Scala 3 / ZIO library for TypeSafe AI's Jev / System One API — a "System One model" that answers typed, atomic questions about a piece of state instead of generating text\.
 
 ### Integration
 
