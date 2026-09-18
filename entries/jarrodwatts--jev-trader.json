@@ -1,0 +1,6 @@
+{
+  "name": "jev-trader",
+  "repository": "jarrodwatts/jev-trader",
+  "description": "A TypeSafe Jev model watches the Kuru MON-USDC order book and answers buy or sell every ~300 ms.",
+  "category": "applications"
+}
