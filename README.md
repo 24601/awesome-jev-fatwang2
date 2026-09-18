@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-5 projects.
+4 projects.
 
 ### SDKs
 
@@ -19,7 +19,6 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ### Search
 
-- [Every](https://github.com/sufianetaouil/every) — Semantic code-search CLI that asks Jev yes/no questions about source units and ranks the returned probabilities\.
 - [Jev Search](https://github.com/superagents-lab/jev-search) — Web search using Jev to choose sources, time ranges and query candidates, then rank Search1API results by relevance\.
 
 ## Submit a project
