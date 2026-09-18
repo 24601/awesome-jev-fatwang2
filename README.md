@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-34 projects.
+35 projects.
 
 ### SDKs
 
@@ -53,6 +53,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 ### Applications
 
 - [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) — Python browser agent using Jev to select operations and DOM targets, with a separate text model for typing\.
+- [jev-trader](https://github.com/jarrodwatts/jev-trader) — A TypeSafe Jev model watches the Kuru MON-USDC order book and answers buy or sell every \~300 ms\.
 - [Jev-Trades](https://github.com/zadescoxp/Jev-Trades) — A Next\.js dashboard for live crypto market data and TypeSafe-powered paper trading\.
 - [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) — macOS computer-use tool using Jev to choose actions from OCR and accessibility state, with a separate model for free-text writing\.
 
