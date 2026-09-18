@@ -1,0 +1,6 @@
+{
+  "name": "jevclient",
+  "repository": "AboveColin/jevclient",
+  "description": "Async Python client for TypeSafe Jev. Typed questions in, probabilities and choices out, no prose to parse.",
+  "category": "sdk"
+}
