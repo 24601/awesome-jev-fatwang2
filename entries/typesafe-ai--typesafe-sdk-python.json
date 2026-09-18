@@ -1,0 +1,7 @@
+{
+  "name": "TypeSafe Python SDK",
+  "repository": "typesafe-ai/typesafe-sdk-python",
+  "description": "Official Python client for TypeSafe's typed decision API, with synchronous and asynchronous clients.",
+  "category": "sdk",
+  "evidence": ["README.md", "src/typesafe_sdk/_core/client/sync/client.py", "src/typesafe_sdk/_core/client/aio/client.py"]
+}

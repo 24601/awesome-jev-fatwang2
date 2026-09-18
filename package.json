@@ -1,0 +1,14 @@
+{
+  "name": "awesome-jev",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A source-backed Jev project directory with a reusable Jev-only review workflow.",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "check": "node scripts/catalog.mjs check",
+    "build": "node scripts/catalog.mjs build",
+    "test": "node --test"
+  }
+}

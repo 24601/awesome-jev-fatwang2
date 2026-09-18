@@ -1,0 +1,24 @@
+name: Submission help
+description: Ask a maintainer to help prepare a project entry. This does not automatically create a PR.
+title: 'Submission: '
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: GitHub repository
+      description: Public repository URL
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What does Jev do in this project?
+      description: Include links to the source files showing actual use.
+    validations:
+      required: true
+  - type: textarea
+    id: affiliation
+    attributes:
+      label: Your affiliation
+    validations:
+      required: true

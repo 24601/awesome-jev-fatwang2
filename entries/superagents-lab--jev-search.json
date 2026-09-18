@@ -1,0 +1,7 @@
+{
+  "name": "Jev Search",
+  "repository": "superagents-lab/jev-search",
+  "description": "Web search using Jev to choose sources, time ranges and query candidates, then rank Search1API results by relevance.",
+  "category": "search",
+  "evidence": ["README.md", "src/lib/typesafe.ts", "src/lib/rank.ts"]
+}

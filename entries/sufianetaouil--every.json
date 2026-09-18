@@ -1,0 +1,7 @@
+{
+  "name": "Every",
+  "repository": "sufianetaouil/every",
+  "description": "Semantic code-search CLI that asks Jev yes/no questions about source units and ranks the returned probabilities.",
+  "category": "search",
+  "evidence": ["README.md", "every/judge.py"]
+}

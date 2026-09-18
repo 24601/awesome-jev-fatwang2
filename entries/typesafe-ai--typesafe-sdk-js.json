@@ -1,0 +1,7 @@
+{
+  "name": "TypeSafe JavaScript SDK",
+  "repository": "typesafe-ai/typesafe-sdk-js",
+  "description": "Official JavaScript and TypeScript client for TypeSafe's typed decision API, with question builders and typed responses.",
+  "category": "sdk",
+  "evidence": ["README.md", "src/client.ts", "src/questions.ts"]
+}
