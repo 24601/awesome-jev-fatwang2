@@ -1,0 +1,6 @@
+{
+  "name": "unclutter",
+  "repository": "kitze/unclutter",
+  "description": "Jev classifies nonessential page elements through Vercel AI Gateway or TypeSafe AI directly; the extension stores and reapplies local hiding rules by page template.",
+  "category": "applications"
+}
