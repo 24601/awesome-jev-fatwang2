@@ -1,0 +1,6 @@
+{
+  "name": "Jev Review Action",
+  "repository": "fatwang2/jev-review-action",
+  "description": "Configurable GitHub Action using Jev to review directory submissions and classify pull requests, with evidence links and template-generated comments.",
+  "category": "developer_tools"
+}
