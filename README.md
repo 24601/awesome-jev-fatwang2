@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-52 projects.
+53 projects.
 
 ### SDKs
 
@@ -19,6 +19,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [typesafe\_sdk](https://github.com/nshkrdotcom/typesafe_sdk) — typesafe\_sdk is the Elixir SDK for TypeSafe AI and its first System One model, Jev\.
 - [typesafe\_sdk\_ex](https://github.com/vinnie357/typesafe_sdk_ex) — Typesafe AI SDK in Elixir using Req
 - [typesafe-ai](https://github.com/Twister915/typesafe-ai) — typesafe-ai brings TypeSafe's System One evaluation API into Rust as small, typed judgments that fit inside ordinary application code\.
+- [typesafe-ai-rs](https://github.com/gilljon/typesafe-ai-rs) — An independent Rust client for the TypeSafe AI System One API, maintained at gilljon/typesafe-ai-rs\.
 - [typesafe-rs](https://github.com/AbdelStark/typesafe-rs) — Evaluate a state against named questions \(noul, choice, score\) and get one typed answer per question\.
 - [typesafe-sdk](https://github.com/joshmn/typesafe-sdk) — A Ruby client for the TypeSafe System One API\.
 - [typesafe-sdk-go](https://github.com/Tangerg/typesafe-sdk-go) — Go SDK for the TypeSafe AI API — typed questions in, probability distributions out\.
