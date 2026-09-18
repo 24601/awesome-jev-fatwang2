@@ -36,12 +36,16 @@ After a maintainer merges an entry, GitHub Actions validates the catalog and reg
 
 ## Projects
 
-4 projects. Entries are alphabetical within each category.
+5 projects. Entries are alphabetical within each category.
 
 ### Sdk
 
 - [TypeSafe JavaScript SDK](https://github.com/typesafe-ai/typesafe-sdk-js) — Official JavaScript and TypeScript client for TypeSafe's typed decision API, with question builders and typed responses\.
 - [TypeSafe Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python) — Official Python client for TypeSafe's typed decision API, with synchronous and asynchronous clients\.
+
+### Developer tools
+
+- [Jev Review Action](https://github.com/fatwang2/jev-review-action) — Configurable GitHub Action using Jev to review directory submissions and classify pull requests, with evidence links and template-generated comments\.
 
 ### Search
 
