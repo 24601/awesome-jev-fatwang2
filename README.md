@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-54 projects.
+56 projects.
 
 ### SDKs
 
@@ -15,6 +15,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-go](https://github.com/Gaurav-Gosain/jev-go) — Go client for TypeSafe's System One API and its model Jev: typed judgments and calibrated probabilities instead of generated text
 - [jev-go](https://github.com/Stumble/jev-go) — An independent Go SDK for TypeSafe AI's Jev / System One API\.
 - [jevclient](https://github.com/AboveColin/jevclient) — Async Python client for TypeSafe Jev\. Typed questions in, probabilities and choices out, no prose to parse\.
+- [swift-typesafe](https://github.com/ainame/swift-typesafe) — Swift 6\.4 SDK for TypeSafe AI, following the Python SDK's 0\.6\.0 API\.
 - [TypeSafe JavaScript SDK](https://github.com/typesafe-ai/typesafe-sdk-js) — Official JavaScript and TypeScript client for TypeSafe's typed decision API, with question builders and typed responses\.
 - [TypeSafe Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python) — Official Python client for TypeSafe's typed decision API, with synchronous and asynchronous clients\.
 - [typesafe\_sdk](https://github.com/nshkrdotcom/typesafe_sdk) — typesafe\_sdk is the Elixir SDK for TypeSafe AI and its first System One model, Jev\.
@@ -35,6 +36,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [hermes-jev](https://github.com/keeltrace/hermes-jev) — It is built for narrow, typed judgments that should not require the main generative model to improvise an answer: routing, ranking, verification, multi-question assessment, tool gating, and context-value decisions\.
 - [hono-jev-router](https://github.com/yusukebe/hono-jev-router) — Hono router that uses TypeSafe Jev to match HTTP requests against natural-language route descriptions\.
 - [Jev MCP](https://github.com/jkudish/jev-mcp) — MCP server that uses TypeSafe Jev for claim verification, content screening, and semantic candidate ranking\.
+- [jev-ego](https://github.com/romaluev/jev-ego) — TypeScript browser agent for ego lite — Jev Ultrafast's indexed action space, without Chrome, Playwright, or Browser Harness\.
 - [jev-starter](https://github.com/hamakyo/jev-starter) — Typed, policy-driven decision workflows on top of TypeSafe AI Jev: confidence routing, fallbacks, evaluation, and RAG patterns for TypeScript apps\.
 - [laravel-typesafe-jev](https://github.com/Butochnikov/laravel-typesafe-jev) — Unofficial Laravel integration for TypeSafe Jev AI with typed responses, async requests, scoped dependency injection, and testing fakes\.
 - [pg\_typesafe](https://github.com/giuliosmall/pg_typesafe) — PostgreSQL extension that calls TypeSafe Jev from SQL for Choice, Noul, and Score, including batched detect and classify\.
