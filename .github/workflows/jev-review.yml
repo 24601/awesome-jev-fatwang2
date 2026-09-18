@@ -20,7 +20,7 @@ jobs:
           persist-credentials: false
       - name: Review with Jev
         id: review
-        uses: fatwang2/jev-review-action@924aa31992a239734a63bae3342b435654ad18b3 # v0.2.0
+        uses: fatwang2/jev-review-action@49d76c721497c5d3e2bf49e3c2b93243497d574e # batch catalog reviews
         with:
           typesafe-api-key: ${{ secrets.TYPESAFE_API_KEY }}
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
