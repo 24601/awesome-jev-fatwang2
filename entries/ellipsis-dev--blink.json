@@ -2,5 +2,5 @@
   "name": "blink",
   "repository": "ellipsis-dev/blink",
   "description": "Search a codebase with Jev using an ensemble of walkers that walk the file system to find a file.",
-  "category": "search"
+  "category": "developer_tools"
 }
