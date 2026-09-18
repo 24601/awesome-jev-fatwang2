@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-4 projects.
+5 projects.
 
 ### SDKs
 
@@ -16,6 +16,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 ### Developer tools
 
 - [Jev Review Action](https://github.com/fatwang2/jev-review-action) — Configurable GitHub Action using Jev to review directory submissions and classify pull requests, with evidence links and template-generated comments\.
+- [jev-curate](https://github.com/AkashPriyadarshii/jev-curate) — Synthetic dataset sifter that streams JSONL and Parquet rows through TypeSafe Jev Noul checks to disk\.
 
 ### Search
 
