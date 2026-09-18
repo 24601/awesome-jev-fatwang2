@@ -1,0 +1,6 @@
+{
+  "name": "jev-go",
+  "repository": "Gaurav-Gosain/jev-go",
+  "description": "Go client for TypeSafe's System One API and its model Jev: typed judgments and calibrated probabilities instead of generated text",
+  "category": "sdk"
+}
