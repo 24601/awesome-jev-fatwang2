@@ -11,14 +11,14 @@ Create `entries/owner--repository.json` with these fields:
   "name": "Project name",
   "repository": "owner/repository",
   "description": "One factual sentence describing the project and its use of Jev.",
-  "category": "search",
-  "evidence": ["README.md", "src/typesafe.ts"]
+  "category": "search"
 }
 ```
 
 - Use exactly the repository's `owner/name`, without a URL, and lowercase the filename.
 - Choose a category from `.github/jev-review.json`; `other` is reserved for uncertain model results.
-- Supply 1–6 relative text-file paths from the submitted repository. Include actual integration code as well as documentation.
+- Source paths are optional: the Action tries to find the Jev integration automatically. If you know the relevant files, add `"evidence": ["src/client.ts"]` with up to six relative paths. You can omit this field or use `[]`.
+- If the review cannot find enough evidence, it will ask you to add source paths and flag the submission for maintainer review.
 - Change exactly one entry file in the PR. README is regenerated after merge.
 - Run `npm run check` and `npm test` locally if possible.
 - Disclose in the PR description whether you maintain or are affiliated with the project.

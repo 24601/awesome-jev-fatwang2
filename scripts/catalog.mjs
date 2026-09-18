@@ -15,8 +15,10 @@ export function validateEntry(entry, filename, categories) {
   assert(typeof entry.repository === 'string' && /^[A-Za-z0-9][A-Za-z0-9-]{0,38}\/[A-Za-z0-9][A-Za-z0-9_.-]{0,99}$/.test(entry.repository), 'Invalid GitHub repository');
   assert(filename === `${entry.repository.toLowerCase().replace('/', '--')}.json`, 'Entry filename must match owner--repository.json');
   assert(Object.hasOwn(categories, entry.category) && entry.category !== 'other', 'Unsupported category');
-  assert(Array.isArray(entry.evidence) && entry.evidence.length >= 1 && entry.evidence.length <= 6 && new Set(entry.evidence).size === entry.evidence.length, 'Need 1–6 distinct evidence paths');
-  for (const path of entry.evidence) assert(typeof path === 'string' && path.length <= 240 && !/[\\\u0000-\u001f?#]/.test(path) && path.split('/').every(p => p && p !== '.' && p !== '..'), 'Invalid evidence path');
+  if (entry.evidence !== undefined) {
+    assert(Array.isArray(entry.evidence) && entry.evidence.length <= 6 && new Set(entry.evidence).size === entry.evidence.length, 'Optional evidence must contain at most 6 distinct paths');
+    for (const path of entry.evidence) assert(typeof path === 'string' && path.length <= 240 && !/[\\\u0000-\u001f?#]/.test(path) && path.split('/').every(p => p && p !== '.' && p !== '..'), 'Invalid evidence path');
+  }
   return entry;
 }
 

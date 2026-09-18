@@ -13,7 +13,7 @@ body:
     id: evidence
     attributes:
       label: What does Jev do in this project?
-      description: Include links to the source files showing actual use.
+      description: Describe its use in one sentence. Source links are optional; the PR reviewer can look for integration code automatically.
     validations:
       required: true
   - type: textarea

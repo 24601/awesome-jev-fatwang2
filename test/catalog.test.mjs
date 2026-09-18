@@ -21,3 +21,14 @@ test('generated README is sorted, escapes markup and includes each entry once', 
 test('committed catalog is valid', async () => {
   const { entries } = await loadCatalog(); assert.ok(entries.length >= 1);
 });
+
+
+test('submissions without evidence paths validate and render normally', () => {
+  const { evidence, ...minimal } = entry;
+  assert.doesNotThrow(() => validateEntry(minimal, 'owner--repo.json', categories));
+  assert.doesNotThrow(() => validateEntry({ ...minimal, evidence: [] }, 'owner--repo.json', categories));
+  assert.ok(renderCatalog('# Directory', [minimal], categories).includes('https://github.com/owner/repo'));
+  for (const evidence of [null, 'src/index.ts', ['same.ts', 'same.ts'], Array.from({ length: 7 }, (_, i) => `${i}.ts`)]) {
+    assert.throws(() => validateEntry({ ...minimal, evidence }, 'owner--repo.json', categories));
+  }
+});

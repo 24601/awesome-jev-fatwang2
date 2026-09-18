@@ -2,9 +2,9 @@
 
 <!-- Project repository URL and what it does. -->
 
-## Jev integration evidence
+## Jev integration evidence (optional)
 
-<!-- Which files show the actual API/provider integration and its concrete decision task? -->
+<!-- Leave blank to use automatic discovery. If you know the integration files, add their paths here and optionally in the entry evidence field. -->
 
 ## Affiliation
 
@@ -15,5 +15,4 @@
 - [ ] This PR changes exactly one entry JSON file.
 - [ ] The repository is public and source code is licensed.
 - [ ] The description is factual and source files support its claims.
-- [ ] I included actual integration code in the evidence paths.
 - [ ] I ran `npm run check`, or need a maintainer's help.
