@@ -1,0 +1,6 @@
+{
+  "name": "SemDecide",
+  "repository": "sharziki/semdecide",
+  "description": "CLI that uses TypeSafe Jev for semantic predicates, classification, scoring, and filtering in Unix pipelines.",
+  "category": "developer_tools"
+}

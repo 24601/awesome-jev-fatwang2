@@ -1,0 +1,6 @@
+{
+  "name": "Jev Review",
+  "repository": "devagrawal09/jev-review",
+  "description": "Code-review workflow that uses TypeSafe Jev structured judgments to assess changes and codebases, with a local results dashboard.",
+  "category": "developer_tools"
+}

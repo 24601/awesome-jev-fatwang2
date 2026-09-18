@@ -1,0 +1,6 @@
+{
+  "name": "Jev Codex Router",
+  "repository": "0xNatoshi/jev-codex-router",
+  "description": "Codex proxy that uses TypeSafe Jev judgments to route coding turns to different models.",
+  "category": "developer_tools"
+}

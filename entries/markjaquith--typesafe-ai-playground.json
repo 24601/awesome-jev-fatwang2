@@ -1,0 +1,6 @@
+{
+  "name": "TypeSafe AI Playground",
+  "repository": "markjaquith/typesafe-ai-playground",
+  "description": "Rust CLI with TypeSafe Jev experiments for PHI detection, code-comment review, tone analysis, and classification.",
+  "category": "developer_tools"
+}

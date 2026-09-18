@@ -1,0 +1,6 @@
+{
+  "name": "hono-jev-router",
+  "repository": "yusukebe/hono-jev-router",
+  "description": "Hono router that uses TypeSafe Jev to match HTTP requests against natural-language route descriptions.",
+  "category": "integration"
+}

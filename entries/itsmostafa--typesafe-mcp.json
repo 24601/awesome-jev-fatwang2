@@ -1,0 +1,6 @@
+{
+  "name": "Typesafe MCP",
+  "repository": "itsmostafa/typesafe-mcp",
+  "description": "MCP server that exposes TypeSafe Jev structured evaluations to coding agents and desktop clients.",
+  "category": "integration"
+}

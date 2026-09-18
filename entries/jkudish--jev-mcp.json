@@ -1,0 +1,6 @@
+{
+  "name": "Jev MCP",
+  "repository": "jkudish/jev-mcp",
+  "description": "MCP server that uses TypeSafe Jev for claim verification, content screening, and semantic candidate ranking.",
+  "category": "integration"
+}
