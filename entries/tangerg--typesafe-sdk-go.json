@@ -1,0 +1,6 @@
+{
+  "name": "typesafe-sdk-go",
+  "repository": "Tangerg/typesafe-sdk-go",
+  "description": "Go SDK for the TypeSafe AI API — typed questions in, probability distributions out.",
+  "category": "sdk"
+}
