@@ -1,0 +1,6 @@
+{
+  "name": "Supercov",
+  "repository": "supercorp-ai/supercov",
+  "description": "Code quality and coverage CLI for coding agents that uses TypeSafe Jev to assess source-code quality.",
+  "category": "developer_tools"
+}
