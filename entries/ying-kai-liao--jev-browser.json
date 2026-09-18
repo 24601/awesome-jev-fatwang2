@@ -1,0 +1,6 @@
+{
+  "name": "jev-browser",
+  "repository": "Ying-Kai-Liao/jev-browser",
+  "description": "Browser automation where an LLM plans and Jev (Typesafe System One) decides. Library, CLI and MCP server.",
+  "category": "integration"
+}
