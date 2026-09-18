@@ -1,0 +1,6 @@
+{
+  "name": "typesafe_sdk_ex",
+  "repository": "vinnie357/typesafe_sdk_ex",
+  "description": "Typesafe AI SDK in Elixir using Req",
+  "category": "sdk"
+}
