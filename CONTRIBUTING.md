@@ -29,13 +29,15 @@ For batches, each project receives an independent Jev review. The comment summar
 
 ## Review details
 
-The Action checks the public repository's README, dependency manifests, and automatically discovered source files at a fixed commit. You may supply up to six source paths to help it; if discovery is insufficient, the review asks for paths instead of treating missing evidence as a rejection. Jev judges concrete integration, whether the proposed description is supported, and whether setup instructions are usable. A separate Choice question suggests the category.
+At a fixed public repository commit, Jev first selects up to six source files using the README, dependency manifests, and candidate filenames/sizes. This selection does not see source contents or optional evidence hints. The Action then reads the selected files plus any supplied evidence paths, and a separate Jev call judges concrete integration, description support, and usable setup instructions. A Choice question suggests the category. If discovery is insufficient, the review asks for paths instead of treating missing evidence as a rejection.
+
+Files are sent whole, never truncated. The review accepts up to ten files and 48,000 file-content characters; a file that cannot fit is omitted with a visible warning requiring maintainer review. Individual file reads and the selection request also have resource limits. These are not exact model token counts, and exceeding provider limits fails visibly. No second retrieval round is implemented.
 
 The comment reports the outcome, probabilities, evidence links, reviewed PR commit, model version, and policy hash. Missing evidence, an uncertain category, or a proposed-category mismatch requires maintainer review. The Action never merges a PR or edits the submission. PR runs retain a JSON report as a GitHub Actions artifact for 14 days; this is not a permanent review archive.
 
 Single-project reports keep schema version 1. Batch reports use schema version 2 with a `reports` array containing each project's full result and entry path. Save reports before artifact expiry when a permanent review record is needed.
 
-README and source excerpts are sent to TypeSafe. Provider failures are reported as failures, not favorable reviews. The privileged workflow executes only trusted base-branch code and reads submitted files as data.
+README, manifests, candidate paths, and selected source contents are sent to TypeSafe. Reports retain selection probabilities, selected/included paths, model, usage, and input hashes under `discovery`; top-level `usage` counts only the final review. Provider failures are reported as failures, not favorable reviews. The privileged workflow executes only trusted base-branch code and reads submitted files as data.
 
 
 See [validation records](docs/reviews/README.md) for saved live reports.
