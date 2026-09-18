@@ -1,0 +1,6 @@
+{
+  "name": "Jev Ultrafast",
+  "repository": "browser-use/jev-ultrafast",
+  "description": "Python browser agent using Jev to select operations and DOM targets, with a separate text model for typing.",
+  "category": "applications"
+}

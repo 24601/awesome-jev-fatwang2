@@ -1,0 +1,7 @@
+{
+  "name": "hev reranker",
+  "repository": "hev/reranker",
+  "description": "Python library using Jev Noul judgments to score candidate documents for query relevance, then sort or filter the results.",
+  "category": "search",
+  "evidence": ["hev_rerank/rerank.py", "hev_rerank/prompt.yaml"]
+}

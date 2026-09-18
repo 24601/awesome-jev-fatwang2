@@ -1,0 +1,7 @@
+{
+  "name": "typesafe-computer-use",
+  "repository": "awlevin/typesafe-computer-use",
+  "description": "macOS computer-use tool using Jev to choose actions from OCR and accessibility state, with a separate model for free-text writing.",
+  "category": "applications",
+  "evidence": ["typesafe_computer_use/decide.py"]
+}
