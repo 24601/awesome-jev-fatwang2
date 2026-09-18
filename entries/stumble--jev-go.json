@@ -1,0 +1,6 @@
+{
+  "name": "jev-go",
+  "repository": "Stumble/jev-go",
+  "description": "An independent Go SDK for TypeSafe AI's Jev / System One API.",
+  "category": "sdk"
+}
