@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-21 projects.
+22 projects.
 
 ### SDKs
 
@@ -43,6 +43,10 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 - [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) — Python browser agent using Jev to select operations and DOM targets, with a separate text model for typing\.
 - [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) — macOS computer-use tool using Jev to choose actions from OCR and accessibility state, with a separate model for free-text writing\.
+
+### Research
+
+- [LitJev](https://github.com/zhengxuyu/litjev) — Open reproduction of Jev's decision layer on Qwen models that serves the Jev /v1/systemone request and response schema \(choice, score, noul\) from a local Hugging Face checkpoint by reading option logits instead of generating text, with an MMLU-Pro direct-answer benchmark\.
 
 ## Submit a project
 
