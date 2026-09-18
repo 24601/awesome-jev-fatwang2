@@ -1,0 +1,7 @@
+{
+  "name": "jev-curate",
+  "repository": "AkashPriyadarshii/jev-curate",
+  "description": "Synthetic dataset sifter that streams JSONL and Parquet rows through TypeSafe Jev Noul checks to disk.",
+  "category": "developer_tools",
+  "evidence": ["README.md", "src/api.rs", "src/rules.rs", "src/parquet_io.rs"]
+}
