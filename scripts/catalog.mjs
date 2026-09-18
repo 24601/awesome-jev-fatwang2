@@ -41,17 +41,17 @@ export async function loadCatalog(directory = root) {
   return { policy, entries };
 }
 
-export function renderCatalog(introduction, entries, categories) {
-  const lines = [introduction.trimEnd(), '', `${entries.length} projects. Entries are alphabetical within each category.`, ''];
+export function renderCatalog(introduction, entries, categories, footer = '') {
+  const lines = [introduction.trimEnd(), '', '## Projects', '', `${entries.length} projects.`, ''];
   for (const category of Object.keys(categories).filter(c => c !== 'other')) {
     const group = entries.filter(e => e.category === category).sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase(), 'en'));
     if (!group.length) continue;
-    const title = category.replace(/_/g, ' ');
+    const title = category === 'sdk' ? 'SDKs' : category.replace(/_/g, ' ');
     lines.push(`### ${title[0].toUpperCase()}${title.slice(1)}`, '');
     for (const entry of group) lines.push(`- [${escape(entry.name)}](https://github.com/${entry.repository}) — ${escape(entry.description)}`);
     lines.push('');
   }
-  lines.push('## Development', '', 'Node.js 22 or newer. Run `npm run check`, `npm test`, and `npm run build`. No API key is needed to validate or render the catalog.', '', '## License', '', 'MIT. Linked projects retain their own licenses and terms.', '');
+  if (footer.trim()) lines.push(footer.trim(), '');
   return `${lines.join('\n')}`;
 }
 
@@ -60,7 +60,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
     const command = process.argv[2] ?? 'check';
     assert(['check', 'build'].includes(command), 'Use check or build');
     const { policy, entries } = await loadCatalog();
-    if (command === 'build') await writeFile(join(root, 'README.md'), renderCatalog(await readFile(join(root, 'docs/introduction.md'), 'utf8'), entries, policy.categories));
+    if (command === 'build') await writeFile(join(root, 'README.md'), renderCatalog(await readFile(join(root, 'docs/introduction.md'), 'utf8'), entries, policy.categories, await readFile(join(root, 'docs/footer.md'), 'utf8')));
     console.log(`${basename(root)}: ${entries.length} valid entries${command === 'build' ? '; README generated' : ''}`);
   } catch (error) { console.error(error.message); process.exitCode = 1; }
 }

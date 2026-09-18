@@ -25,9 +25,26 @@ Create `entries/owner--repository.json` with these fields:
 
 The reviewer is advisory. A model recommendation does not automatically merge or reject a PR. Missing files, unclear evidence, and incorrect categories can be fixed with another commit, which triggers another review. Review criteria and their thresholds are public and provisional.
 
+## Review details
+
+The Action checks the public repository's README, dependency manifests, and automatically discovered source files at a fixed commit. You may supply up to six source paths to help it; if discovery is insufficient, the review asks for paths instead of treating missing evidence as a rejection. Jev judges concrete integration, whether the proposed description is supported, and whether setup instructions are usable. A separate Choice question suggests the category.
+
+The comment reports the outcome, probabilities, evidence links, reviewed PR commit, model version, and policy hash. Missing evidence, an uncertain category, or a proposed-category mismatch requires maintainer review. The Action never merges a PR or edits the submission. PR runs retain a JSON report as a GitHub Actions artifact for 14 days; this is not a permanent review archive.
+
+README and source excerpts are sent to TypeSafe. Provider failures are reported as failures, not favorable reviews. The privileged workflow executes only trusted base-branch code and reads submitted files as data.
+
+
+See [validation records](docs/reviews/README.md) for saved live reports.
+
 ## Maintenance
 
 Policy, workflow, generated-output, and entry-removal changes belong in separate maintainer PRs. Entry removals require human review. Initial seed entries were maintained by hand; do not claim they passed live Jev review without a linked report.
+
+## Local development
+
+Use Node.js 22 or newer. Run `npm run check`, `npm test`, and `npm run build`; these checks do not need an API key.
+
+The README is generated from `entries/`, `docs/introduction.md`, and `docs/footer.md`. Edit these sources and run `npm run build`. Links in the introduction and footer are relative to the generated root README. After a merge, GitHub Actions regenerates the README automatically.
 
 ## Enable Jev review
 
