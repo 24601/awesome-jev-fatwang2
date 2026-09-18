@@ -19,17 +19,21 @@ Create `entries/owner--repository.json` with these fields:
 - Choose a category from `.github/jev-review.json`; `other` is reserved for uncertain model results.
 - Source paths are optional: the Action tries to find the Jev integration automatically. If you know the relevant files, add `"evidence": ["src/client.ts"]` with up to six relative paths. You can omit this field or use `[]`.
 - If the review cannot find enough evidence, it will ask you to add source paths and flag the submission for maintainer review.
-- Change exactly one entry file in the PR. README is regenerated after merge.
+- Change 1–10 entry files in the PR, one file per project. Do not mix entry submissions with other changes. README is regenerated after merge.
 - Run `npm run check` and `npm test` locally if possible.
-- Disclose in the PR description whether you maintain or are affiliated with the project.
+- Disclose in the PR description whether you maintain or are affiliated with each project. For maintainer-discovered batches, link the discovery sources and state that this is not an author submission.
 
 The reviewer is advisory. A model recommendation does not automatically merge or reject a PR. Missing files, unclear evidence, and incorrect categories can be fixed with another commit, which triggers another review. Review criteria and their thresholds are public and provisional.
+
+For batches, each project receives an independent Jev review. The comment summarizes the batch and includes expandable per-project results. Only an all-recommended batch is recommended; one error fails the Action but preserves completed sibling reports. GitHub merges the entire PR: resolve, remove, or split unresolved entries before merging. Every new commit re-reviews the batch, so prefer batches of 5–10 projects.
 
 ## Review details
 
 The Action checks the public repository's README, dependency manifests, and automatically discovered source files at a fixed commit. You may supply up to six source paths to help it; if discovery is insufficient, the review asks for paths instead of treating missing evidence as a rejection. Jev judges concrete integration, whether the proposed description is supported, and whether setup instructions are usable. A separate Choice question suggests the category.
 
 The comment reports the outcome, probabilities, evidence links, reviewed PR commit, model version, and policy hash. Missing evidence, an uncertain category, or a proposed-category mismatch requires maintainer review. The Action never merges a PR or edits the submission. PR runs retain a JSON report as a GitHub Actions artifact for 14 days; this is not a permanent review archive.
+
+Single-project reports keep schema version 1. Batch reports use schema version 2 with a `reports` array containing each project's full result and entry path. Save reports before artifact expiry when a permanent review record is needed.
 
 README and source excerpts are sent to TypeSafe. Provider failures are reported as failures, not favorable reviews. The privileged workflow executes only trusted base-branch code and reads submitted files as data.
 
