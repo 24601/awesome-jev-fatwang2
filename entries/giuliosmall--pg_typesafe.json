@@ -1,0 +1,6 @@
+{
+  "name": "pg_typesafe",
+  "repository": "giuliosmall/pg_typesafe",
+  "description": "A PostgreSQL extension that calls TypeSafe AI (System One / Jev) from SQL for categorical work: Choice, Noul, and Score.",
+  "category": "integration"
+}
