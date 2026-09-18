@@ -1,0 +1,6 @@
+{
+  "name": "swift-typesafe",
+  "repository": "ainame/swift-typesafe",
+  "description": "Swift 6.4 SDK for TypeSafe AI, following the Python SDK's 0.6.0 API.",
+  "category": "sdk"
+}
