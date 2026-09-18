@@ -6,10 +6,11 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-31 projects.
+32 projects.
 
 ### SDKs
 
+- [jev-go](https://github.com/Gaurav-Gosain/jev-go) — Go client for TypeSafe's System One API and its model Jev: typed judgments and calibrated probabilities instead of generated text
 - [TypeSafe JavaScript SDK](https://github.com/typesafe-ai/typesafe-sdk-js) — Official JavaScript and TypeScript client for TypeSafe's typed decision API, with question builders and typed responses\.
 - [TypeSafe Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python) — Official Python client for TypeSafe's typed decision API, with synchronous and asynchronous clients\.
 - [typesafe\_sdk\_ex](https://github.com/vinnie357/typesafe_sdk_ex) — Typesafe AI SDK in Elixir using Req
