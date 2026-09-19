@@ -1,0 +1,6 @@
+{
+  "name": "jevlogs",
+  "repository": "reachjalil/jevlogs",
+  "description": "Open-source Jev log triage for OpenTelemetry. Score the signal before expensive LLM analysis.",
+  "category": "integration"
+}
