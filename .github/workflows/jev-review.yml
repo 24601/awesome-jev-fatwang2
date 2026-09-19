@@ -20,9 +20,7 @@ jobs:
           persist-credentials: false
       - name: Review with Jev
         id: review
-        # Provider inputs below need a jev-review-action commit with provider-chain support;
-        # bump this pin to that release, or the pinned action ignores them with a warning.
-        uses: fatwang2/jev-review-action@0cc579cb2aa5b160b6d8a788a4775953a31c6e1e # Review comments include GitHub listing stats
+        uses: fatwang2/jev-review-action@efd869a59fec09d4f6242cc7c3bbfab282ef0ec4 # Jev provider chain (typesafe, vercel, cloudflare) and listing stats
         with:
           # Repository variable JEV_PROVIDERS orders typesafe, vercel and cloudflare; unset means typesafe only.
           # Unlisted providers stay off even when their secrets exist; unset secrets are skipped.
