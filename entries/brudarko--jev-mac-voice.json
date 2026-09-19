@@ -1,0 +1,7 @@
+{
+  "name": "Jev Mac Voice",
+  "repository": "brudarko/jev-mac-voice",
+  "description": "Electron app for English voice control of macOS through OpenAI Realtime and a native Swift Accessibility bridge, with an optional browser command where TypeSafe Jev Choice, Noul, and Score questions pick the action, target, and completion check for Playwright to execute after policy and approval.",
+  "category": "applications",
+  "evidence": ["src/jev.js", "src/desktop/jev-browser.js", "src/desktop/tools.js", "src/policy.js", "native/DesktopBridge.swift", "README.md"]
+}
