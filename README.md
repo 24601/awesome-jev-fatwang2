@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-60 projects.
+61 projects.
 
 ### SDKs
 
@@ -51,6 +51,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [Jev Codex Router](https://github.com/0xNatoshi/jev-codex-router) — Codex proxy that uses TypeSafe Jev judgments to route coding turns to different models\.
 - [Jev Review](https://github.com/devagrawal09/jev-review) — Code-review workflow that uses TypeSafe Jev structured judgments to assess changes and codebases, with a local results dashboard\.
 - [Jev Review Action](https://github.com/fatwang2/jev-review-action) — Configurable GitHub Action using Jev to review directory submissions and classify pull requests, with evidence links and template-generated comments\.
+- [jev-axi](https://github.com/shiftynick/jev-axi) — Command-line interface that sends typed questions to TypeSafe Jev so coding agents can gate shell commands before they run, classifying routine commands locally before any request is made\.
 - [jev-code](https://github.com/devagrawal09/jev-code) — jev-code is a command-line toolkit that coding agents can delegate judgment-heavy work to\.
 - [jev-curate](https://github.com/AkashPriyadarshii/jev-curate) — Synthetic dataset sifter that streams JSONL and Parquet rows through TypeSafe Jev Noul checks to disk\.
 - [jev-git](https://github.com/AkashPriyadarshii/jev-git) — Sub-second Git pre-commit and pre-push reflex gate that screens staged diffs for secrets and destructive commands using TypeSafe Jev\.
