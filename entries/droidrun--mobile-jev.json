@@ -1,0 +1,6 @@
+{
+  "name": "mobile-jev",
+  "repository": "droidrun/mobile-jev",
+  "description": "A standalone mobile agent for Mobilerun, powered by TypeSafe's Jev and the Mobilerun API.",
+  "category": "applications"
+}
