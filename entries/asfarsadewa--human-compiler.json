@@ -1,0 +1,6 @@
+{
+  "name": "human-compiler",
+  "repository": "asfarsadewa/human-compiler",
+  "description": "A compiler for human language. Paste text, get diagnostics. Measured by TypeSafe Jev.",
+  "category": "applications"
+}
