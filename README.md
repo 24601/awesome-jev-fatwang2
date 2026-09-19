@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-61 projects.
+62 projects.
 
 ### SDKs
 
@@ -77,6 +77,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) — Python browser agent using Jev to select operations and DOM targets, with a separate text model for typing\.
 - [jev-trader](https://github.com/jarrodwatts/jev-trader) — A TypeSafe Jev model watches the Kuru MON-USDC order book and answers buy or sell every \~300 ms\.
 - [Jev-Trades](https://github.com/zadescoxp/Jev-Trades) — A Next\.js dashboard for live crypto market data and TypeSafe-powered paper trading\.
+- [mobile-jev](https://github.com/droidrun/mobile-jev) — A standalone mobile agent for Mobilerun, powered by TypeSafe's Jev and the Mobilerun API\.
 - [typesafe-ai-playground](https://github.com/BunsDev/typesafe-ai-playground) — A community playground for TypeSafe AI's Jev: edit classification experiments, compare A/B inputs, route conversations, extract document fields, inspect code-policy decisions, and explore games and simulations built around typed model outputs\.
 - [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) — macOS computer-use tool using Jev to choose actions from OCR and accessibility state, with a separate model for free-text writing\.
 - [UI Generator Instinct Jev](https://github.com/joevidev/ui-generator-instinct-jev) — A demo app where the user describes a UI case in free text and Jev \(TypeSafe's System One model\) answers typed Choice/Noul/Score questions to pick and configure a real shadcn/ui component or page block, never generating code or copy\.
