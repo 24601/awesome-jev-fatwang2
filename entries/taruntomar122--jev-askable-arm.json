@@ -1,0 +1,6 @@
+{
+  "name": "jev-askable-arm",
+  "repository": "TarunTomar122/jev-askable-arm",
+  "description": "Zero-shot English goals on a sim Franka. Jev chains hardcoded primitives.",
+  "category": "games"
+}
