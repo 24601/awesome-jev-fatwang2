@@ -1,0 +1,6 @@
+{
+  "name": "jev-eval-agent",
+  "repository": "vinilana/jev-eval-agent",
+  "description": "The repository exists to answer one question: how many steps does the agent need to finish the same task when the LLM picks the tool itself vs. when Jev (TypeSafe's classifier) picks it?",
+  "category": "research"
+}
