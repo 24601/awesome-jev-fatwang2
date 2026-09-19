@@ -55,7 +55,7 @@ The README is generated from `entries/`, `docs/introduction.md`, and `docs/foote
 
 ## Enable Jev review
 
-The repository owner must configure a dedicated `TYPESAFE_API_KEY` GitHub Actions secret. No key is included or shared with other projects. Until configured, the model review cannot complete; catalog validation remains usable.
+The repository owner must configure a dedicated `TYPESAFE_API_KEY` GitHub Actions secret. No key is included or shared with other projects. Until configured, the model review cannot complete; catalog validation remains usable. Jev can also be reached through Vercel AI Gateway (`AI_GATEWAY_API_KEY`) or Cloudflare Workers AI (`CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN`) as fallbacks; the repository variable `JEV_PROVIDERS` lists the enabled providers in order of preference (default `typesafe`), and providers not listed stay off even when their secrets exist.
 
 ```bash
 gh secret set TYPESAFE_API_KEY --repo fatwang2/awesome-jev
