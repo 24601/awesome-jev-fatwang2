@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-70 projects.
+71 projects.
 
 ### SDKs
 
@@ -93,6 +93,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 ### Games
 
 - [jev-plays-pokemon-red](https://github.com/valentynkit/jev-plays-pokemon-red) — Pokemon Red on PyBoy where deterministic code owns the route and arithmetic, Jev picks only at branches, and every battle turn's faint prediction is scored by Brier against RAM state\.
+- [PlayJev](https://github.com/OmniJev/PlayJev) — Qwen3\.5-0\.8B-Base fine-tuned on frames labelled by ten per-game search programs to play ten browser games from 448 px screenshots, reading a probability over each game's option list off one forward pass instead of generating text, and serving the Jev /v1/systemone request and response schema\.
 
 ### Research
 
