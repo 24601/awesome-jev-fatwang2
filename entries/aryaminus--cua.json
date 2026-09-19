@@ -1,0 +1,7 @@
+{
+  "name": "cua",
+  "repository": "aryaminus/cua",
+  "description": "Computer-use automation where an LLM discovers a UI flow once and it replays deterministically with no model in the loop; Jev answers the continue/stuck decision when discovery stops making progress.",
+  "category": "applications",
+  "evidence": ["cua/openrouter.py", "cua/agent.py", "cua/replay.py"]
+}
