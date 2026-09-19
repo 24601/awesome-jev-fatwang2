@@ -1,0 +1,6 @@
+{
+  "name": "jev-shell-history",
+  "repository": "mrnugget/jev-shell-history",
+  "description": "Fish-style zsh history autosuggestions ranked by Jev (TypeSafe)",
+  "category": "integration"
+}
