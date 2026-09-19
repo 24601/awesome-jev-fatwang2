@@ -1,0 +1,6 @@
+{
+  "name": "jev-audio-beeper",
+  "repository": "santos-sanz/jev-audio-beeper",
+  "description": "Private TypeScript proof of concept: identify Spanish profanity with Jev's typed probabilistic decisions and replace the matching word intervals with a beep without changing the audio duration.",
+  "category": "applications"
+}
