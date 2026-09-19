@@ -1,0 +1,6 @@
+{
+  "name": "jevmeter",
+  "repository": "ChetasLua/jevmeter",
+  "description": "Put a live Jev (TypeSafe) meter on any video: every sentence scored, rendered as a 16:9 edit",
+  "category": "applications"
+}
