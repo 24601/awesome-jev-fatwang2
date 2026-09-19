@@ -1,0 +1,6 @@
+{
+  "name": "jev-router",
+  "repository": "gargpratyush/jev-router",
+  "description": "Automatic per-turn model routing for Claude Code and OpenAI Codex.",
+  "category": "integration"
+}
