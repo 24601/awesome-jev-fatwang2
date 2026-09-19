@@ -20,9 +20,15 @@ jobs:
           persist-credentials: false
       - name: Review with Jev
         id: review
-        uses: fatwang2/jev-review-action@0cc579cb2aa5b160b6d8a788a4775953a31c6e1e # Review comments include GitHub listing stats
+        uses: fatwang2/jev-review-action@efd869a59fec09d4f6242cc7c3bbfab282ef0ec4 # Jev provider chain (typesafe, vercel, cloudflare) and listing stats
         with:
+          # Repository variable JEV_PROVIDERS orders typesafe, vercel and cloudflare; unset means typesafe only.
+          # Unlisted providers stay off even when their secrets exist; unset secrets are skipped.
+          jev-providers: ${{ vars.JEV_PROVIDERS }}
           typesafe-api-key: ${{ secrets.TYPESAFE_API_KEY }}
+          ai-gateway-api-key: ${{ secrets.AI_GATEWAY_API_KEY }}
+          cloudflare-account-id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          cloudflare-api-token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         if: always()
         with:
