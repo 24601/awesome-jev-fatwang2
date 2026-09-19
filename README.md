@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-62 projects.
+63 projects.
 
 ### SDKs
 
@@ -35,6 +35,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [ha-conversation-jev](https://github.com/luxus/ha-conversation-jev) — Home Assistant custom conversation agent: Jev \(TypeSafe System One, jev-latest\) classifies an utterance, then either calls a light service \(v0 fast path\) or hands off to the SpaceXAI Grok conversation agent\.
 - [hermes-jev](https://github.com/keeltrace/hermes-jev) — It is built for narrow, typed judgments that should not require the main generative model to improvise an answer: routing, ranking, verification, multi-question assessment, tool gating, and context-value decisions\.
 - [hono-jev-router](https://github.com/yusukebe/hono-jev-router) — Hono router that uses TypeSafe Jev to match HTTP requests against natural-language route descriptions\.
+- [Jev for Home Assistant](https://github.com/AboveColin/HA-Jev) — Home Assistant integration that turns Jev answers into sensors, adds four automation actions returning a probability, a choice with its distribution or a score, and provides a conversation agent for Assist that maps a spoken command onto Home Assistant's built-in intents\.
 - [Jev MCP](https://github.com/jkudish/jev-mcp) — MCP server that uses TypeSafe Jev for claim verification, content screening, and semantic candidate ranking\.
 - [jev-browser](https://github.com/Ying-Kai-Liao/jev-browser) — Browser automation where an LLM plans and Jev \(Typesafe System One\) decides\. Library, CLI and MCP server\.
 - [jev-ego](https://github.com/romaluev/jev-ego) — TypeScript browser agent for ego lite — Jev Ultrafast's indexed action space, without Chrome, Playwright, or Browser Harness\.
