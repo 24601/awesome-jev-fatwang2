@@ -1,0 +1,6 @@
+{
+  "name": "jev-ego",
+  "repository": "romaluev/jev-ego",
+  "description": "TypeScript browser agent for ego lite — Jev Ultrafast's indexed action space, without Chrome, Playwright, or Browser Harness.",
+  "category": "integration"
+}

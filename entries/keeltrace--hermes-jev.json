@@ -1,0 +1,6 @@
+{
+  "name": "hermes-jev",
+  "repository": "keeltrace/hermes-jev",
+  "description": "It is built for narrow, typed judgments that should not require the main generative model to improvise an answer: routing, ranking, verification, multi-question assessment, tool gating, and context-value decisions.",
+  "category": "integration"
+}

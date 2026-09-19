@@ -1,0 +1,13 @@
+{
+  "name": "typesafe-ai-playground",
+  "repository": "BunsDev/typesafe-ai-playground",
+  "description": "A community playground for TypeSafe AI's Jev: edit classification experiments, compare A/B inputs, route conversations, extract document fields, inspect code-policy decisions, and explore games and simulations built around typed model outputs.",
+  "category": "applications",
+  "evidence": [
+    "README.md",
+    "lib/callJev.ts",
+    "lib/serverJev.ts",
+    "lib/classifyWithJev.ts",
+    "lib/jev-chat/engine.ts"
+  ]
+}
