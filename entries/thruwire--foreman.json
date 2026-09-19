@@ -1,0 +1,6 @@
+{
+  "name": "foreman",
+  "repository": "thruwire/foreman",
+  "description": "A Codex worker does the software engineering while Foreman independently assesses whether the implementation is complete, requirements are satisfied, tests are sufficient, verification is needed, or human input is required.",
+  "category": "developer_tools"
+}
