@@ -1,0 +1,10 @@
+{
+  "name": "JevsBistro",
+  "repository": "andrewsilber/JevsBistro",
+  "description": "Deterministic 3D restaurant simulator that replays the same dinner service to compare rule-based, camera-assisted, and Jev-planned waiters, logging each decision's state, options, confidence, and latency.",
+  "category": "games",
+  "evidence": [
+    "README.md",
+    "docs/reference.md"
+  ]
+}
