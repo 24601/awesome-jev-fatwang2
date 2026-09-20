@@ -1,0 +1,6 @@
+{
+  "name": "TypeAR",
+  "repository": "TypeAR-AI/TypeAR",
+  "description": "TypeAR brings the same typed-decision interface to the open-source autoregressive models you already run—without a proprietary model API, model retraining, structured-output library, or manual KV-tensor management.",
+  "category": "sdk"
+}
