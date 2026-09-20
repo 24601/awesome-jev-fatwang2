@@ -1,0 +1,6 @@
+{
+  "name": "jevfire",
+  "repository": "kikoncuo/jevfire",
+  "description": "JEVfire assigns typed variables from finite choices, batching independent fields through vLLM for parallel execution and reuse of their shared instruction/context prefix when the engine cache permits it.",
+  "category": "research"
+}
