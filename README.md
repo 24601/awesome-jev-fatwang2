@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-153 projects.
+154 projects.
 
 ### SDKs
 
@@ -78,6 +78,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [bicameral](https://github.com/AbdelStark/bicameral) — Hybrid coding harness: System 2 writes, System 1 \(Jev\) runs reflexes\.
 - [blink](https://github.com/ellipsis-dev/blink) — Search a codebase with Jev using an ensemble of walkers that walk the file system to find a file\.
 - [commit-miner](https://github.com/devanshbatham/commit-miner) — Classify Git commit diffs and messages with Jev\. Bug fixes, security fixes/CWEs, and change types\.
+- [diffjury](https://github.com/raihankhan-rk/diffjury) — One click fetches the PR dossier \(title, body, diff, contributors\) and runs a TypeSafe Jev systemOne judgment — risk bars, noul probabilities, and a verdict\.
 - [every](https://github.com/sufianetaouil/every) — Ask a yes/no question of every function in a codebase\. Ranked answers in seconds, for cents\. Grep whose pattern is a question, powered by TypeSafe Jev\.
 - [foreman](https://github.com/thruwire/foreman) — A Codex worker does the software engineering while Foreman independently assesses whether the implementation is complete, requirements are satisfied, tests are sufficient, verification is needed, or human input is required\.
 - [Jev Codex Router](https://github.com/0xNatoshi/jev-codex-router) — Codex proxy that uses TypeSafe Jev judgments to route coding turns to different models\.
