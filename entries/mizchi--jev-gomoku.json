@@ -1,0 +1,6 @@
+{
+  "name": "jev-gomoku",
+  "repository": "mizchi/jev-gomoku",
+  "description": "TypeSafe AI の System One モデル Jev を MoonBit から触るためのプレイグラウンド。 Jev は「文字列ではなく型付きの確率判断を返す」意思決定専用モデルです(unstructured state in, typed probabilistic decisions out)。",
+  "category": "games"
+}
