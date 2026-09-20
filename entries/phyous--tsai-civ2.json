@@ -1,0 +1,6 @@
+{
+  "name": "tsai-civ2",
+  "repository": "phyous/tsai-civ2",
+  "description": "An original Civilization II browser harness for TypeSafe Jev, with live decision probabilities and a Roman-themed spectator display.",
+  "category": "games"
+}
