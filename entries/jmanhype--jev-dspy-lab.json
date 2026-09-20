@@ -1,0 +1,6 @@
+{
+  "name": "jev-dspy-lab",
+  "repository": "jmanhype/jev-dspy-lab",
+  "description": "Reproducible calibration, confidence-gating, latency, and modeled-cost benchmarks for Jev / TypeSafe System One decisions used in DSPy workflows.",
+  "category": "research"
+}
