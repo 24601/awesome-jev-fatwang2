@@ -1,0 +1,6 @@
+{
+  "name": "jcm-router",
+  "repository": "adarshmishra07/jcm-router",
+  "description": "A local proxy that sits between Claude Code and the Anthropic API and picks the model and effort level per message, using TypeSafe's Jev classifier.",
+  "category": "integration"
+}
