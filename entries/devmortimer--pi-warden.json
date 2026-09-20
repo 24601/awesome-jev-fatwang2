@@ -1,0 +1,6 @@
+{
+  "name": "pi-warden",
+  "repository": "DevMortimer/pi-warden",
+  "description": "Guardrails for Pi built on pi-typesafe that steer the agent instead of interrupting you: Jev judges irreversible and off-task tool calls, detects stuck loops, checks unverified done claims, flags slop",
+  "category": "developer_tools"
+}
