@@ -1,0 +1,6 @@
+{
+  "name": "jev-tree",
+  "repository": "reachjalil/jev-tree",
+  "description": "Recursive Jev choice over a taxonomy. Select from more than 255 options without breaking TypeSafe Jev's choice cap.",
+  "category": "sdk"
+}
