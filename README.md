@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-115 projects.
+121 projects.
 
 ### SDKs
 
@@ -45,6 +45,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-browser](https://github.com/Ying-Kai-Liao/jev-browser) — Browser automation where an LLM plans and Jev \(Typesafe System One\) decides\. Library, CLI and MCP server\.
 - [jev-ego](https://github.com/romaluev/jev-ego) — TypeScript browser agent for ego lite — Jev Ultrafast's indexed action space, without Chrome, Playwright, or Browser Harness\.
 - [jev-guard](https://github.com/ClemensSchartmueller/jev-guard) — jev-guard intercepts tool calls \(shell executions, file writes, patch applications, file reads, and directory inspections\) before execution, performs sub-millisecond local boundary and sensitive file checks, and utilizes TypeSafe AI's System One \(Jev\) model to evaluate blast radius, reversibility, and destructive potential\.
+- [jev-mcp](https://github.com/blakestone-x/jev-mcp) — MCP server for TypeSafe Jev: typed classify, score, check, match and screen for any agent, with confidence on every answer
 - [jev-resilience](https://github.com/Vicente-MD/jev-resilience) — Non-blocking Spring Boot Starter for Spring WebFlux that implements a Semantic Circuit Breaker to detect silent HTTP 200 failures using TypeSafe Jev\.
 - [jev-router](https://github.com/gargpratyush/jev-router) — Automatic per-turn model routing for Claude Code and OpenAI Codex\.
 - [jev-shell-history](https://github.com/mrnugget/jev-shell-history) — Fish-style zsh history autosuggestions ranked by Jev \(TypeSafe\)
@@ -54,6 +55,8 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [laravel-typesafe-jev](https://github.com/Butochnikov/laravel-typesafe-jev) — Unofficial Laravel integration for TypeSafe Jev AI with typed responses, async requests, scoped dependency injection, and testing fakes\.
 - [omp-jev-compaction](https://github.com/jerryfane/omp-jev-compaction) — omp plugin that uses Jev to score tool-call and tool-result relevance, preserves kept conversation text verbatim, and parks elided output in readable files\.
 - [pg\_typesafe](https://github.com/giuliosmall/pg_typesafe) — PostgreSQL extension that calls TypeSafe Jev from SQL for Choice, Noul, and Score, including batched detect and classify\.
+- [pi-jev](https://github.com/y0usaf/pi-jev) — TypeSafe Jev as a decision layer for the Pi coding agent: a measured tool-call gate plus jev\_ask for typed, calibrated answers
+- [pi-typesafe](https://github.com/DevMortimer/pi-typesafe) — TypeSafe decisions for Pi: batched evaluation tool, terminal playground, and typed API for extension authors
 - [ruby\_llm-typesafe](https://github.com/kieranklaassen/ruby_llm-typesafe) — TypeSafe structured-output provider for RubyLLM 2
 - [sqlite3-jev](https://github.com/mattn/sqlite3-jev) — SQLite extension that calls TypeSafe Jev — a decision-only model that returns typed answers \(yes/no probability, choice, score\) instead of text — straight from SQL\.
 - [tripwire](https://github.com/noelzappy/tripwire) — Judge every LLM response before the user sees it\. AI SDK middleware and OpenAI-compatible proxy\.
@@ -76,6 +79,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-curate](https://github.com/AkashPriyadarshii/jev-curate) — Synthetic dataset sifter that streams JSONL and Parquet rows through TypeSafe Jev Noul checks to disk\.
 - [jev-git](https://github.com/AkashPriyadarshii/jev-git) — Sub-second Git pre-commit and pre-push reflex gate that screens staged diffs for secrets and destructive commands using TypeSafe Jev\.
 - [jev-pref](https://github.com/doeixd/jev-pref) — CLI that turns project preferences from agent instruction files into jev-pref\.json rules and uses TypeSafe Jev to review code hunks, staged files, or pull requests against them, returning findings to coding agents\.
+- [jev-review](https://github.com/NiazMorshed2007/jev-review) — Local-first MCP plugin for continuous software-quality review by AI coding agents, powered by Jev\.
 - [jev-scout](https://github.com/AkashPriyadarshii/jev-scout) — Zero-hallucination open-source repo and crate scout powered by TypeSafe AI Jev System One scoring\.
 - [jev-seo](https://github.com/AkashPriyadarshii/jev-seo) — Zero-cost, agent-first SEO &amp; Generative Engine Optimization \(GEO\) search radar CLI suite and MCP server powered by DuckDuckGo and TypeSafe Jev System One\.
 - [jev-superpowers](https://github.com/AkashPriyadarshii/jev-superpowers) — Systematic software development framework for AI coding agents upgraded with TypeSafe Jev System One typed decisions, zero-hallucination package vetting, and completion gates\.
@@ -83,6 +87,8 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jevkit](https://github.com/ariel-frischer/jevkit) — jevkit is a Rust CLI for TypeSafe Jev that validates Choice, Score, and Noul question sets with 13 offline lint rules before sending the request to the /api/alpha/decisions endpoint and prints the parsed answers as JSON\.
 - [JevSeek](https://github.com/morcoan/JevSeek) — Desktop and CLI coding agent that uses Jev to select the next tool from user intent and recorded execution results\.
 - [Leanest](https://github.com/baronunread/leanest) — Local-first test selector that uses TypeSafe Jev semantic judgments to decide which tests are safe to skip for a given code change, dropping straight into CI via its bundled GitHub Action\.
+- [pi-jev-auto-mode](https://github.com/jomatsu/pi-jev-auto-mode) — Jev \(TypeSafe System One\) backed auto mode for the Pi coding agent: semantically auto-approves bash, write, and edit tool calls and fails closed when a decision cannot be made\.
+- [pi-warden](https://github.com/DevMortimer/pi-warden) — Guardrails for Pi built on pi-typesafe that steer the agent instead of interrupting you: Jev judges irreversible and off-task tool calls, detects stuck loops, checks unverified done claims, flags slop
 - [progressgate](https://github.com/AshutoshVJTI/progressgate) — It's a small deterministic policy sitting on top of TypeSafe Jev semantic judgments — Jev reads the trajectory, code decides what to do about it\.
 - [SemDecide](https://github.com/sharziki/semdecide) — CLI that uses TypeSafe Jev for semantic predicates, classification, scoring, and filtering in Unix pipelines\.
 - [Supercov](https://github.com/supercorp-ai/supercov) — Code quality and coverage CLI for coding agents that uses TypeSafe Jev to assess source-code quality\.
