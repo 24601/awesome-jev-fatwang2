@@ -1,0 +1,6 @@
+{
+  "name": "smoking-extraction-benchmark",
+  "repository": "vclic/smoking-extraction-benchmark",
+  "description": "Synthetic smoking-history extraction benchmark comparing TypeSafe Jev and OpenAI structured outputs, with reproducible accuracy, cost, and latency results.",
+  "category": "research"
+}
