@@ -1,0 +1,6 @@
+{
+  "name": "typesafe-jev-workflow",
+  "repository": "GiesN/typesafe-jev-workflow",
+  "description": "A small async LangGraph workflow that sends a mocked email to TypeSafe's Jev model, receives a typed Choice (invoice or general), and routes to a demo handler.",
+  "category": "integration"
+}
