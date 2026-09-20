@@ -1,0 +1,6 @@
+{
+  "name": "pi-typesafe",
+  "repository": "DevMortimer/pi-typesafe",
+  "description": "TypeSafe decisions for Pi: batched evaluation tool, terminal playground, and typed API for extension authors",
+  "category": "integration"
+}
