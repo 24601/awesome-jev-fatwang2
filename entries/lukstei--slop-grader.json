@@ -1,0 +1,11 @@
+{
+  "name": "slop-grader",
+  "repository": "lukstei/slop-grader",
+  "description": "Rule-based CLI and agent skill that grades text and markdown files against customizable rulesets using TypeSafe Jev, guiding an AI agent to auto-fix violations.",
+  "category": "developer_tools",
+  "evidence": [
+    "src/providers/jev.ts",
+    "src/grader.ts",
+    "package.json"
+  ]
+}
