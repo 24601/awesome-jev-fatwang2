@@ -1,0 +1,6 @@
+{
+  "name": "jev-router",
+  "repository": "prismhq/jev-router",
+  "description": "Open-source LLM router that uses TypeSafe's Jev to pick a model, on top of LiteLLM",
+  "category": "integration"
+}
