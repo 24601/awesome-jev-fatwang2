@@ -1,0 +1,6 @@
+{
+  "name": "jev-mcp",
+  "repository": "blakestone-x/jev-mcp",
+  "description": "MCP server for TypeSafe Jev: typed classify, score, check, match and screen for any agent, with confidence on every answer",
+  "category": "integration"
+}
