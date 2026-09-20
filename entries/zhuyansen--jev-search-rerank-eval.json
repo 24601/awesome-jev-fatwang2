@@ -1,0 +1,6 @@
+{
+  "name": "jev-search-rerank-eval",
+  "repository": "zhuyansen/jev-search-rerank-eval",
+  "description": "Does a TypeSafe Jev rerank beat embedding search? Graded relevance eval (9,831 pairs, 164 zh/en queries) over the Agent Skills Hub catalog, with the judge-circularity bias measured.",
+  "category": "research"
+}
