@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-90 projects.
+92 projects.
 
 ### SDKs
 
@@ -43,8 +43,10 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [Jev MCP](https://github.com/jkudish/jev-mcp) — MCP server that uses TypeSafe Jev for claim verification, content screening, and semantic candidate ranking\.
 - [jev-browser](https://github.com/Ying-Kai-Liao/jev-browser) — Browser automation where an LLM plans and Jev \(Typesafe System One\) decides\. Library, CLI and MCP server\.
 - [jev-ego](https://github.com/romaluev/jev-ego) — TypeScript browser agent for ego lite — Jev Ultrafast's indexed action space, without Chrome, Playwright, or Browser Harness\.
+- [jev-guard](https://github.com/ClemensSchartmueller/jev-guard) — jev-guard intercepts tool calls \(shell executions, file writes, patch applications, file reads, and directory inspections\) before execution, performs sub-millisecond local boundary and sensitive file checks, and utilizes TypeSafe AI's System One \(Jev\) model to evaluate blast radius, reversibility, and destructive potential\.
 - [jev-resilience](https://github.com/Vicente-MD/jev-resilience) — Non-blocking Spring Boot Starter for Spring WebFlux that implements a Semantic Circuit Breaker to detect silent HTTP 200 failures using TypeSafe Jev\.
 - [jev-starter](https://github.com/hamakyo/jev-starter) — Typed, policy-driven decision workflows on top of TypeSafe AI Jev: confidence routing, fallbacks, evaluation, and RAG patterns for TypeScript apps\.
+- [jev-use](https://github.com/shitianfang/jev-use) — Claude Code, Codex, and pi plugin exposing jev\_judge and jev\_gate MCP tools with a routing skill and a PreToolUse command gate; a typed escalation contract returns writing and unsure steps to the LLM\.
 - [laravel-typesafe-jev](https://github.com/Butochnikov/laravel-typesafe-jev) — Unofficial Laravel integration for TypeSafe Jev AI with typed responses, async requests, scoped dependency injection, and testing fakes\.
 - [omp-jev-compaction](https://github.com/jerryfane/omp-jev-compaction) — omp plugin that uses Jev to score tool-call and tool-result relevance, preserves kept conversation text verbatim, and parks elided output in readable files\.
 - [pg\_typesafe](https://github.com/giuliosmall/pg_typesafe) — PostgreSQL extension that calls TypeSafe Jev from SQL for Choice, Noul, and Score, including batched detect and classify\.
