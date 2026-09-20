@@ -1,0 +1,6 @@
+{
+  "name": "jev-phishing-bench",
+  "repository": "anisselbd/jev-phishing-bench",
+  "description": "Public, reproducible comparison of Jev (TypeSafe AI's System One model, launched 15 September 2026) against a classic LLM on one security decision: should an email agent click the link in this email?",
+  "category": "research"
+}
