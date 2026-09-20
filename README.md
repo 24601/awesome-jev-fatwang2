@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-154 projects.
+155 projects.
 
 ### SDKs
 
@@ -177,6 +177,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jevcal](https://github.com/abhixhek/jevcal) — Stop guessing confidence thresholds\. jevcal measures a typed decision model on your data, picks the threshold that meets your accuracy target, tells you how much traffic still needs an LLM, and fails CI when a model update quietly breaks it\.
 - [jevfire](https://github.com/kikoncuo/jevfire) — JEVfire assigns typed variables from finite choices, batching independent fields through vLLM for parallel execution and reuse of their shared instruction/context prefix when the engine cache permits it\.
 - [jevmlx](https://github.com/bnsd55/jevmlx) — Asking an LLM for JSON means parsing what it wrote and retrying until it parses\. jevmlx takes a schema of booleans, enums, and multi-selects, scores every allowed answer for every field in one forward pass, and assembles the JSON itself — valid by construction, every field with a probability\.
+- [Laya](https://github.com/NandhaKishorM/laya) — A multilingual, non-autoregressive System 1 decision engine with Jev-like typed choice, score, and noul decisions, language-aware checkpoint routing, and reproducible comparisons against Jev\.
 - [LitJev](https://github.com/zhengxuyu/litjev) — Open reproduction of Jev's decision layer on Qwen models that serves the Jev /v1/systemone request and response schema \(choice, score, noul\) from a local Hugging Face checkpoint by reading option logits instead of generating text, with an MMLU-Pro direct-answer benchmark\.
 - [openjev](https://github.com/razorback16/openjev) — Open, Jev-compatible System One decision server on DiffusionGemma
 - [openjev-sglang](https://github.com/ekzhang/openjev-sglang) — A server implementing the TypeSafe/Jev HTTP API with Qwen3\.6-35B-A3B on SGLang\.
