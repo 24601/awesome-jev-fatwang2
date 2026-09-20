@@ -1,12 +1,10 @@
 {
   "name": "Laya",
   "repository": "NandhaKishorM/laya",
-  "description": "An open-source multilingual, non-autoregressive System 1 decision engine and compatible Jev decision-layer implementation, exposing typed choice, score, and noul decisions with language-aware checkpoint routing.",
+  "description": "A multilingual, non-autoregressive System 1 decision engine with Jev-like typed choice, score, and noul decisions, language-aware checkpoint routing, and reproducible comparisons against Jev.",
   "category": "research",
   "evidence": [
-    "README.md",
-    "laya/agent.py",
-    "laya/common.py",
-    "laya/router.py"
+    "laya/router.py",
+    "laya/agent.py"
   ]
 }
