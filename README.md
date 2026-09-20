@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-121 projects.
+128 projects.
 
 ### SDKs
 
@@ -19,6 +19,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jevclient](https://github.com/AboveColin/jevclient) — Async Python client for TypeSafe Jev\. Typed questions in, probabilities and choices out, no prose to parse\.
 - [req\_llm](https://github.com/agentjido/req_llm) — A Req- and Finch-backed Elixir package that standardizes LLM API calls across providers, including a TypeSafe Jev provider with typed evaluation support\.
 - [swift-typesafe](https://github.com/ainame/swift-typesafe) — Swift 6\.4 SDK for TypeSafe AI, following the Python SDK's 0\.6\.0 API\.
+- [TypeLLM](https://github.com/TypeLLM/TypeLLM) — TypeLLM brings the same typed-decision interface as TypeSafe Jev to the open-source autoregressive models you already run—without a proprietary model API, model retraining, structured-output library, or manual KV-tensor management\.
 - [TypeSafe JavaScript SDK](https://github.com/typesafe-ai/typesafe-sdk-js) — Official JavaScript and TypeScript client for TypeSafe's typed decision API, with question builders and typed responses\.
 - [TypeSafe Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python) — Official Python client for TypeSafe's typed decision API, with synchronous and asynchronous clients\.
 - [typesafe\_sdk](https://github.com/nshkrdotcom/typesafe_sdk) — typesafe\_sdk is the Elixir SDK for TypeSafe AI and its first System One model, Jev\.
@@ -34,6 +35,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ### Integration
 
+- [ask-jev-skill](https://github.com/shantanugoel/ask-jev-skill) — Hermes skill: call TypeSafe Jev \(jev-latest\) as a typed tiebreaker\.
 - [cursor-clijev-compaction](https://github.com/kleosr/cursor-clijev-compaction) — TypeSafe Jev-scored context recovery for Cursor CLI \(agent\)\. Capture tool I/O, score keep/drop, re-inject after native compact\.
 - [dsh-jev-tools](https://github.com/HorusJiang/dsh-jev-tools) — DeepSeek Harness plugin that runs three automatic Jev judgments on the live session — pruning oversized tool output to the segments relevant to the request, screening fetched pages for instructions aimed at the model, and picking which skill fits the next step — and adds jev\_ask and a jev\_gate completion check that escalates every unclear answer\.
 - [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) — Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim\.
@@ -53,6 +55,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-use](https://github.com/shitianfang/jev-use) — Claude Code, Codex, and pi plugin exposing jev\_judge and jev\_gate MCP tools with a routing skill and a PreToolUse command gate; a typed escalation contract returns writing and unsure steps to the LLM\.
 - [jevlogs](https://github.com/reachjalil/jevlogs) — Open-source Jev log triage for OpenTelemetry\. Score the signal before expensive LLM analysis\.
 - [laravel-typesafe-jev](https://github.com/Butochnikov/laravel-typesafe-jev) — Unofficial Laravel integration for TypeSafe Jev AI with typed responses, async requests, scoped dependency injection, and testing fakes\.
+- [llama-index-jev](https://github.com/WiktorB2004/llama-index-jev) — Drop-in LlamaIndex reranker and router powered by TypeSafe Jev: typed Score / Choice answers, cheap compared to LLM-as-judge — not a Cohere or FlagEmbedding cross-encoder\.
 - [omp-jev-compaction](https://github.com/jerryfane/omp-jev-compaction) — omp plugin that uses Jev to score tool-call and tool-result relevance, preserves kept conversation text verbatim, and parks elided output in readable files\.
 - [pg\_typesafe](https://github.com/giuliosmall/pg_typesafe) — PostgreSQL extension that calls TypeSafe Jev from SQL for Choice, Noul, and Score, including batched detect and classify\.
 - [pi-jev](https://github.com/y0usaf/pi-jev) — TypeSafe Jev as a decision layer for the Pi coding agent: a measured tool-call gate plus jev\_ask for typed, calibrated answers
@@ -65,6 +68,8 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ### Developer tools
 
+- [agentic-harness-cli](https://github.com/powerpuff-kitty/agentic-harness-cli) — The decisions command family implements the offline deterministic boundary for the provider-neutral Decision Kernel contract pinned from the canonical repository\.
+- [bicameral](https://github.com/AbdelStark/bicameral) — Hybrid coding harness: System 2 writes, System 1 \(Jev\) runs reflexes\.
 - [blink](https://github.com/ellipsis-dev/blink) — Search a codebase with Jev using an ensemble of walkers that walk the file system to find a file\.
 - [commit-miner](https://github.com/devanshbatham/commit-miner) — Classify Git commit diffs and messages with Jev\. Bug fixes, security fixes/CWEs, and change types\.
 - [every](https://github.com/sufianetaouil/every) — Ask a yes/no question of every function in a codebase\. Ranked answers in seconds, for cents\. Grep whose pattern is a question, powered by TypeSafe Jev\.
@@ -134,6 +139,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-got](https://github.com/phureewat29/jev-got) — Each turn a story model writes the next scene, and then TypeSafe's Jev reads that scene back and answers five questions about it: where Jon now stands, what kind of scene it was, how much danger he is in, what should play under it, and whether the prose stayed inside the fiction\.
 - [jev-little-airways](https://github.com/lbotinelly/jev-little-airways) — A show-and-tell capability study for Jev, TypeSafe's System One decision model\.
 - [jev-plays-pokemon-red](https://github.com/valentynkit/jev-plays-pokemon-red) — Pokemon Red on PyBoy where deterministic code owns the route and arithmetic, Jev picks only at branches, and every battle turn's faint prediction is scored by Brier against RAM state\.
+- [JevsBistro](https://github.com/andrewsilber/JevsBistro) — Deterministic 3D restaurant simulator that replays the same dinner service to compare rule-based, camera-assisted, and Jev-planned waiters, logging each decision's state, options, confidence, and latency\.
 - [PlayJev](https://github.com/OmniJev/PlayJev) — Qwen3\.5-0\.8B-Base fine-tuned on frames labelled by ten per-game search programs to play ten browser games from 448 px screenshots, reading a probability over each game's option list off one forward pass instead of generating text, and serving the Jev /v1/systemone request and response schema\.
 - [snake-jev](https://github.com/siroccomask/snake-jev) — A desktop Snake experiment powered by Jev / System One\.
 - [tsai-civ2](https://github.com/phyous/tsai-civ2) — An original Civilization II browser harness for TypeSafe Jev, with live decision probabilities and a Roman-themed spectator display\.
@@ -145,6 +151,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 - [jev-eval-agent](https://github.com/vinilana/jev-eval-agent) — The repository exists to answer one question: how many steps does the agent need to finish the same task when the LLM picks the tool itself vs\. when Jev \(TypeSafe's classifier\) picks it?
 - [jev-secret-detection](https://github.com/teyhouse/jev-secret-detection) — Measures how well TypeSafe's Jev model spots real secret credentials in file snippets\.
+- [jevmlx](https://github.com/bnsd55/jevmlx) — Asking an LLM for JSON means parsing what it wrote and retrying until it parses\. jevmlx takes a schema of booleans, enums, and multi-selects, scores every allowed answer for every field in one forward pass, and assembles the JSON itself — valid by construction, every field with a probability\.
 - [LitJev](https://github.com/zhengxuyu/litjev) — Open reproduction of Jev's decision layer on Qwen models that serves the Jev /v1/systemone request and response schema \(choice, score, noul\) from a local Hugging Face checkpoint by reading option logits instead of generating text, with an MMLU-Pro direct-answer benchmark\.
 - [openjev](https://github.com/razorback16/openjev) — Open, Jev-compatible System One decision server on DiffusionGemma
 - [openjev-sglang](https://github.com/ekzhang/openjev-sglang) — A server implementing the TypeSafe/Jev HTTP API with Qwen3\.6-35B-A3B on SGLang\.
