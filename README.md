@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-71 projects.
+72 projects.
 
 ### SDKs
 
@@ -31,6 +31,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ### Integration
 
+- [dsh-jev-tools](https://github.com/HorusJiang/dsh-jev-tools) — DeepSeek Harness plugin that runs three automatic Jev judgments on the live session — pruning oversized tool output to the segments relevant to the request, screening fetched pages for instructions aimed at the model, and picking which skill fits the next step — and adds jev\_ask and a jev\_gate completion check that escalates every unclear answer\.
 - [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) — Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim\.
 - [ha-conversation-jev](https://github.com/luxus/ha-conversation-jev) — Home Assistant custom conversation agent: Jev \(TypeSafe System One, jev-latest\) classifies an utterance, then either calls a light service \(v0 fast path\) or hands off to the SpaceXAI Grok conversation agent\.
 - [hermes-jev](https://github.com/keeltrace/hermes-jev) — It is built for narrow, typed judgments that should not require the main generative model to improvise an answer: routing, ranking, verification, multi-question assessment, tool gating, and context-value decisions\.
