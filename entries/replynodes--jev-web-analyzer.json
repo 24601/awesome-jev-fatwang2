@@ -1,0 +1,10 @@
+{
+  "name": "Jev Web Analyzer",
+  "repository": "replynodes/jev-web-analyzer",
+  "description": "Analyzes a public SaaS landing page as clean Markdown and asks Jev ten bounded Choice questions about what a first-time visitor is likely to understand.",
+  "category": "applications",
+  "evidence": [
+    "app/api/analyze/route.ts",
+    "lib/founder-questions.ts"
+  ]
+}
