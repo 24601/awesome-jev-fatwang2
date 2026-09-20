@@ -1,0 +1,6 @@
+{
+  "name": "typesafe-jev",
+  "repository": "gtaras7/typesafe-jev",
+  "description": "A local screening workbench for a folder of CVs, built on TypeSafe's Jev model.",
+  "category": "applications"
+}
