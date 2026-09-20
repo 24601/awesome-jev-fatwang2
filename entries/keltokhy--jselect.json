@@ -1,0 +1,10 @@
+{
+  "name": "jselect",
+  "repository": "keltokhy/jselect",
+  "description": "Selects source-linked evidence within a token budget using Jev Noul relevance judgments and local diversity-aware selection.",
+  "category": "search",
+  "evidence": [
+    "src/jselect/judge.py",
+    "src/jselect/select.py"
+  ]
+}

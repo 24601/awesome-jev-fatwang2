@@ -1,0 +1,11 @@
+{
+  "name": "jlink",
+  "repository": "keltokhy/jlink",
+  "description": "Links records under a plain-English match rule using Jev Noul pair judgments, with local candidate blocking and match resolution.",
+  "category": "applications",
+  "evidence": [
+    "src/jlink/core.py",
+    "src/jlink/judge.py",
+    "src/jlink/resolve.py"
+  ]
+}
