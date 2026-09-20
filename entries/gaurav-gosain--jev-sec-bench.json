@@ -1,0 +1,6 @@
+{
+  "name": "jev-sec-bench",
+  "repository": "Gaurav-Gosain/jev-sec-bench",
+  "description": "Blind security benchmarks for Jev, TypeSafe's System One model: prompt injection and vulnerable code detection, built on jev-go",
+  "category": "research"
+}
