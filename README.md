@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-128 projects.
+140 projects.
 
 ### SDKs
 
@@ -53,6 +53,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-shell-history](https://github.com/mrnugget/jev-shell-history) — Fish-style zsh history autosuggestions ranked by Jev \(TypeSafe\)
 - [jev-starter](https://github.com/hamakyo/jev-starter) — Typed, policy-driven decision workflows on top of TypeSafe AI Jev: confidence routing, fallbacks, evaluation, and RAG patterns for TypeScript apps\.
 - [jev-use](https://github.com/shitianfang/jev-use) — Claude Code, Codex, and pi plugin exposing jev\_judge and jev\_gate MCP tools with a routing skill and a PreToolUse command gate; a typed escalation contract returns writing and unsure steps to the LLM\.
+- [Jevbridge](https://github.com/tacticocc/Jevbridge) — ACP and MCP adapter that bridges TypeSafe Jev with any LLM — computer use and typed decisions alongside Codex, Claude, Grok, and OpenCode\.
 - [jevlogs](https://github.com/reachjalil/jevlogs) — Open-source Jev log triage for OpenTelemetry\. Score the signal before expensive LLM analysis\.
 - [laravel-typesafe-jev](https://github.com/Butochnikov/laravel-typesafe-jev) — Unofficial Laravel integration for TypeSafe Jev AI with typed responses, async requests, scoped dependency injection, and testing fakes\.
 - [llama-index-jev](https://github.com/WiktorB2004/llama-index-jev) — Drop-in LlamaIndex reranker and router powered by TypeSafe Jev: typed Score / Choice answers, cheap compared to LLM-as-judge — not a Cohere or FlagEmbedding cross-encoder\.
@@ -96,6 +97,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [pi-warden](https://github.com/DevMortimer/pi-warden) — Guardrails for Pi built on pi-typesafe that steer the agent instead of interrupting you: Jev judges irreversible and off-task tool calls, detects stuck loops, checks unverified done claims, flags slop
 - [progressgate](https://github.com/AshutoshVJTI/progressgate) — It's a small deterministic policy sitting on top of TypeSafe Jev semantic judgments — Jev reads the trajectory, code decides what to do about it\.
 - [SemDecide](https://github.com/sharziki/semdecide) — CLI that uses TypeSafe Jev for semantic predicates, classification, scoring, and filtering in Unix pipelines\.
+- [slop-grader](https://github.com/lukstei/slop-grader) — Rule-based CLI and agent skill that grades text and markdown files against custom rulesets using TypeSafe Jev, guiding an AI agent to auto-fix violations\.
 - [Supercov](https://github.com/supercorp-ai/supercov) — Code quality and coverage CLI for coding agents that uses TypeSafe Jev to assess source-code quality\.
 - [TypeSafe AI Playground](https://github.com/markjaquith/typesafe-ai-playground) — Rust CLI with TypeSafe Jev experiments for PHI detection, code-comment review, tone analysis, and classification\.
 - [Winnow](https://github.com/GhalebDweikat/winnow) — Claude Code tool-output filter that uses TypeSafe Jev to judge which blocks are relevant to the current task\.
@@ -149,8 +151,18 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ### Research
 
+- [assay-001](https://github.com/jourdanlabs/assay-001) — ASSAY-001: independent, pre-registered verification of TypeSafe Jev's calibration and type-safety claims\. Split verdict, published in full\.
+- [decider](https://github.com/Mapika/decider) — It is an open reproduction of the "System One" model class \(TypeSafe AI's Jev\), built on Qwen/Qwen3\.5-2B-Base\.
+- [jev-agent-failure-benchmark](https://github.com/TokenTrim/jev-agent-failure-benchmark) — This benchmarks Jev \(Typesafe\.ai\) on the text subset of Who&amp;When Pro, an agent-failure-attribution benchmark: given a failed multi-agent run, predict the responsible agent, the decisive step, and the error type\.
+- [jev-dspy-lab](https://github.com/jmanhype/jev-dspy-lab) — Reproducible calibration, confidence-gating, latency, and modeled-cost benchmarks for Jev / TypeSafe System One decisions used in DSPy workflows\.
 - [jev-eval-agent](https://github.com/vinilana/jev-eval-agent) — The repository exists to answer one question: how many steps does the agent need to finish the same task when the LLM picks the tool itself vs\. when Jev \(TypeSafe's classifier\) picks it?
+- [jev-phishing-bench](https://github.com/anisselbd/jev-phishing-bench) — Public, reproducible comparison of Jev \(TypeSafe AI's System One model, launched 15 September 2026\) against a classic LLM on one security decision: should an email agent click the link in this email?
+- [jev-rerank-bench](https://github.com/anessbelbati/jev-rerank-bench) — Can a decision model beat dedicated rerankers? TypeSafe Jev vs Cohere Rerank 4 vs ZeroEntropy zerank-2 vs a chat-model baseline: 14 datasets, every raw API response, bootstrap ranges on every gap\.
+- [jev-sec-bench](https://github.com/Gaurav-Gosain/jev-sec-bench) — Blind security benchmarks for Jev, TypeSafe's System One model: prompt injection and vulnerable code detection, built on jev-go
 - [jev-secret-detection](https://github.com/teyhouse/jev-secret-detection) — Measures how well TypeSafe's Jev model spots real secret credentials in file snippets\.
+- [jev-spam-eval](https://github.com/bitnovus/jev-spam-eval) — This repository explores how far TypeSafe's pretrained Jev model can go through zero-shot classification and context enrichment\.
+- [jevcal](https://github.com/abhixhek/jevcal) — Stop guessing confidence thresholds\. jevcal measures a typed decision model on your data, picks the threshold that meets your accuracy target, tells you how much traffic still needs an LLM, and fails CI when a model update quietly breaks it\.
+- [jevfire](https://github.com/kikoncuo/jevfire) — JEVfire assigns typed variables from finite choices, batching independent fields through vLLM for parallel execution and reuse of their shared instruction/context prefix when the engine cache permits it\.
 - [jevmlx](https://github.com/bnsd55/jevmlx) — Asking an LLM for JSON means parsing what it wrote and retrying until it parses\. jevmlx takes a schema of booleans, enums, and multi-selects, scores every allowed answer for every field in one forward pass, and assembles the JSON itself — valid by construction, every field with a probability\.
 - [LitJev](https://github.com/zhengxuyu/litjev) — Open reproduction of Jev's decision layer on Qwen models that serves the Jev /v1/systemone request and response schema \(choice, score, noul\) from a local Hugging Face checkpoint by reading option logits instead of generating text, with an MMLU-Pro direct-answer benchmark\.
 - [openjev](https://github.com/razorback16/openjev) — Open, Jev-compatible System One decision server on DiffusionGemma
