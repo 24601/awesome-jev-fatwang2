@@ -1,0 +1,6 @@
+{
+  "name": "diffjury",
+  "repository": "raihankhan-rk/diffjury",
+  "description": "One click fetches the PR dossier (title, body, diff, contributors) and runs a TypeSafe Jev systemOne judgment — risk bars, noul probabilities, and a verdict.",
+  "category": "developer_tools"
+}
