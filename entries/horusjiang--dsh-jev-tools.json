@@ -1,0 +1,13 @@
+{
+  "name": "dsh-jev-tools",
+  "repository": "HorusJiang/dsh-jev-tools",
+  "description": "DeepSeek Harness plugin that runs three automatic Jev judgments on the live session — pruning oversized tool output to the segments relevant to the request, screening fetched pages for instructions aimed at the model, and picking which skill fits the next step — and adds jev_ask and a jev_gate completion check that escalates every unclear answer.",
+  "category": "integration",
+  "evidence": [
+    "src/features/prune.ts",
+    "src/features/screen.ts",
+    "src/features/skill-suggest.ts",
+    "src/tools/jev-ask.ts",
+    "src/tools/jev-gate.ts"
+  ]
+}
