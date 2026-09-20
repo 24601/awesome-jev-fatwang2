@@ -1,0 +1,6 @@
+{
+  "name": "jev-spam-eval",
+  "repository": "bitnovus/jev-spam-eval",
+  "description": "This repository explores how far TypeSafe's pretrained Jev model can go through zero-shot classification and context enrichment.",
+  "category": "research"
+}
