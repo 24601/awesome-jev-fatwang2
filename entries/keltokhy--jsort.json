@@ -1,0 +1,11 @@
+{
+  "name": "jsort",
+  "repository": "keltokhy/jsort",
+  "description": "Ranks text along a plain-English criterion using pairwise Jev Noul comparisons and a locally fitted Bradley-Terry scale.",
+  "category": "search",
+  "evidence": [
+    "src/jsort/core.py",
+    "src/jsort/engine.py",
+    "src/jsort/model.py"
+  ]
+}

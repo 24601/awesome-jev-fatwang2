@@ -1,0 +1,11 @@
+{
+  "name": "jgrep",
+  "repository": "keltokhy/jgrep",
+  "description": "Filters text, structured records, functions, and diff hunks against plain-English descriptions using Jev Noul judgments.",
+  "category": "search",
+  "evidence": [
+    "src/jgrep/core.py",
+    "src/jgrep/cli.py",
+    "src/jgrep/code_inputs.py"
+  ]
+}
