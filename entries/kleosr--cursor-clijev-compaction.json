@@ -1,0 +1,6 @@
+{
+  "name": "cursor-clijev-compaction",
+  "repository": "kleosr/cursor-clijev-compaction",
+  "description": "TypeSafe Jev-scored context recovery for Cursor CLI (agent). Capture tool I/O, score keep/drop, re-inject after native compact.",
+  "category": "integration"
+}
