@@ -1,0 +1,6 @@
+{
+  "name": "jev-got",
+  "repository": "phureewat29/jev-got",
+  "description": "Each turn a story model writes the next scene, and then TypeSafe's Jev reads that scene back and answers five questions about it: where Jon now stands, what kind of scene it was, how much danger he is in, what should play under it, and whether the prose stayed inside the fiction.",
+  "category": "games"
+}
