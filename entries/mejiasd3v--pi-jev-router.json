@@ -1,0 +1,6 @@
+{
+  "name": "pi-jev-router",
+  "repository": "mejiasd3v/pi-jev-router",
+  "description": "Let TypeSafe's Jev choose a model and reasoning effort for Pi, then keep both fixed for the session.",
+  "category": "integration"
+}
