@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-110 projects.
+115 projects.
 
 ### SDKs
 
@@ -50,6 +50,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-shell-history](https://github.com/mrnugget/jev-shell-history) — Fish-style zsh history autosuggestions ranked by Jev \(TypeSafe\)
 - [jev-starter](https://github.com/hamakyo/jev-starter) — Typed, policy-driven decision workflows on top of TypeSafe AI Jev: confidence routing, fallbacks, evaluation, and RAG patterns for TypeScript apps\.
 - [jev-use](https://github.com/shitianfang/jev-use) — Claude Code, Codex, and pi plugin exposing jev\_judge and jev\_gate MCP tools with a routing skill and a PreToolUse command gate; a typed escalation contract returns writing and unsure steps to the LLM\.
+- [jevlogs](https://github.com/reachjalil/jevlogs) — Open-source Jev log triage for OpenTelemetry\. Score the signal before expensive LLM analysis\.
 - [laravel-typesafe-jev](https://github.com/Butochnikov/laravel-typesafe-jev) — Unofficial Laravel integration for TypeSafe Jev AI with typed responses, async requests, scoped dependency injection, and testing fakes\.
 - [omp-jev-compaction](https://github.com/jerryfane/omp-jev-compaction) — omp plugin that uses Jev to score tool-call and tool-result relevance, preserves kept conversation text verbatim, and parks elided output in readable files\.
 - [pg\_typesafe](https://github.com/giuliosmall/pg_typesafe) — PostgreSQL extension that calls TypeSafe Jev from SQL for Choice, Noul, and Score, including batched detect and classify\.
@@ -110,6 +111,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-trader](https://github.com/jarrodwatts/jev-trader) — A TypeSafe Jev model watches the Kuru MON-USDC order book and answers buy or sell every \~300 ms\.
 - [Jev-Trades](https://github.com/zadescoxp/Jev-Trades) — A Next\.js dashboard for live crypto market data and TypeSafe-powered paper trading\.
 - [jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser) — Control a real browser by voice\. Jev \(TypeSafe System One\) decides intent \+ target in \~300 ms per spoken word; Playwright acts — often before you finish the sentence\.
+- [jevmeter](https://github.com/ChetasLua/jevmeter) — Put a live Jev \(TypeSafe\) meter on any video: every sentence scored, rendered as a 16:9 edit
 - [mobile-jev](https://github.com/droidrun/mobile-jev) — A standalone mobile agent for Mobilerun, powered by TypeSafe's Jev and the Mobilerun API\.
 - [typesafe-adblock](https://github.com/realZachi/typesafe-adblock) — 🧹 Fun project: a Chrome extension that asks a tiny AI decision model \(TypeSafe Jev\) "is this DOM element an ad?" and pops it off the page\. BYOK, no backend, not a real ad blocker\.
 - [typesafe-ai-playground](https://github.com/BunsDev/typesafe-ai-playground) — A community playground for TypeSafe AI's Jev: edit classification experiments, compare A/B inputs, route conversations, extract document fields, inspect code-policy decisions, and explore games and simulations built around typed model outputs\.
@@ -123,8 +125,11 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-doom-agent](https://github.com/lukaske/jev-doom-agent) — A TypeSafe Jev Choice decision—or an explicitly labeled deterministic offline policy—selects a tactical macro; the local motor controller turns that macro into Doom controls\.
 - [jev-drone](https://github.com/RomanSlack/jev-drone) — Camera-only autonomous drone in MuJoCo with a small judgment model \(TypeSafe Jev\) in the loop at 2\.5Hz
 - [jev-gomoku](https://github.com/mizchi/jev-gomoku) — TypeSafe AI の System One モデル Jev を MoonBit から触るためのプレイグラウンド。 Jev は「文字列ではなく型付きの確率判断を返す」意思決定専用モデルです\(unstructured state in, typed probabilistic decisions out\)。
+- [jev-got](https://github.com/phureewat29/jev-got) — Each turn a story model writes the next scene, and then TypeSafe's Jev reads that scene back and answers five questions about it: where Jon now stands, what kind of scene it was, how much danger he is in, what should play under it, and whether the prose stayed inside the fiction\.
+- [jev-little-airways](https://github.com/lbotinelly/jev-little-airways) — A show-and-tell capability study for Jev, TypeSafe's System One decision model\.
 - [jev-plays-pokemon-red](https://github.com/valentynkit/jev-plays-pokemon-red) — Pokemon Red on PyBoy where deterministic code owns the route and arithmetic, Jev picks only at branches, and every battle turn's faint prediction is scored by Brier against RAM state\.
 - [PlayJev](https://github.com/OmniJev/PlayJev) — Qwen3\.5-0\.8B-Base fine-tuned on frames labelled by ten per-game search programs to play ten browser games from 448 px screenshots, reading a probability over each game's option list off one forward pass instead of generating text, and serving the Jev /v1/systemone request and response schema\.
+- [snake-jev](https://github.com/siroccomask/snake-jev) — A desktop Snake experiment powered by Jev / System One\.
 - [tsai-civ2](https://github.com/phyous/tsai-civ2) — An original Civilization II browser harness for TypeSafe Jev, with live decision probabilities and a Roman-themed spectator display\.
 - [tsai-sc](https://github.com/phyous/tsai-sc) — A TypeSafe System One harness for Strongarm, the first combat mission in the original StarCraft shareware campaign, with a game recording and Jev's actual action probabilities\.
 - [typesafe-mario](https://github.com/fhshaik/typesafe-mario) — An experimental controller that lets TypeSafe's Jev model directly choose NES controller inputs for the original Super Mario Bros\.
