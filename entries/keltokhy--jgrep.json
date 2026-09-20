@@ -5,7 +5,6 @@
   "category": "search",
   "evidence": [
     "src/jgrep/core.py",
-    "src/jgrep/cli.py",
-    "src/jgrep/code_inputs.py"
+    "src/jgrep/cli.py"
   ]
 }
