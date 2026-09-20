@@ -4,7 +4,6 @@
   "description": "A multilingual, non-autoregressive System 1 decision engine with Jev-like typed choice, score, and noul decisions, language-aware checkpoint routing, and reproducible comparisons against Jev.",
   "category": "research",
   "evidence": [
-    "laya/router.py",
     "laya/agent.py"
   ]
 }
