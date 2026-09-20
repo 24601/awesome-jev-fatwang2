@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-92 projects.
+99 projects.
 
 ### SDKs
 
@@ -45,6 +45,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-ego](https://github.com/romaluev/jev-ego) — TypeScript browser agent for ego lite — Jev Ultrafast's indexed action space, without Chrome, Playwright, or Browser Harness\.
 - [jev-guard](https://github.com/ClemensSchartmueller/jev-guard) — jev-guard intercepts tool calls \(shell executions, file writes, patch applications, file reads, and directory inspections\) before execution, performs sub-millisecond local boundary and sensitive file checks, and utilizes TypeSafe AI's System One \(Jev\) model to evaluate blast radius, reversibility, and destructive potential\.
 - [jev-resilience](https://github.com/Vicente-MD/jev-resilience) — Non-blocking Spring Boot Starter for Spring WebFlux that implements a Semantic Circuit Breaker to detect silent HTTP 200 failures using TypeSafe Jev\.
+- [jev-shell-history](https://github.com/mrnugget/jev-shell-history) — Fish-style zsh history autosuggestions ranked by Jev \(TypeSafe\)
 - [jev-starter](https://github.com/hamakyo/jev-starter) — Typed, policy-driven decision workflows on top of TypeSafe AI Jev: confidence routing, fallbacks, evaluation, and RAG patterns for TypeScript apps\.
 - [jev-use](https://github.com/shitianfang/jev-use) — Claude Code, Codex, and pi plugin exposing jev\_judge and jev\_gate MCP tools with a routing skill and a PreToolUse command gate; a typed escalation contract returns writing and unsure steps to the LLM\.
 - [laravel-typesafe-jev](https://github.com/Butochnikov/laravel-typesafe-jev) — Unofficial Laravel integration for TypeSafe Jev AI with typed responses, async requests, scoped dependency injection, and testing fakes\.
@@ -60,6 +61,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 - [blink](https://github.com/ellipsis-dev/blink) — Search a codebase with Jev using an ensemble of walkers that walk the file system to find a file\.
 - [every](https://github.com/sufianetaouil/every) — Ask a yes/no question of every function in a codebase\. Ranked answers in seconds, for cents\. Grep whose pattern is a question, powered by TypeSafe Jev\.
+- [foreman](https://github.com/thruwire/foreman) — A Codex worker does the software engineering while Foreman independently assesses whether the implementation is complete, requirements are satisfied, tests are sufficient, verification is needed, or human input is required\.
 - [Jev Codex Router](https://github.com/0xNatoshi/jev-codex-router) — Codex proxy that uses TypeSafe Jev judgments to route coding turns to different models\.
 - [Jev Review](https://github.com/devagrawal09/jev-review) — Code-review workflow that uses TypeSafe Jev structured judgments to assess changes and codebases, with a local results dashboard\.
 - [Jev Review Action](https://github.com/fatwang2/jev-review-action) — Configurable GitHub Action using Jev to review directory submissions and classify pull requests, with evidence links and template-generated comments\.
@@ -92,8 +94,10 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 ### Applications
 
 - [cua](https://github.com/aryaminus/cua) — Computer-use automation where an LLM discovers a UI flow once and it replays deterministically with no model in the loop; Jev answers the continue/stuck decision when discovery stops making progress\.
+- [human-compiler](https://github.com/asfarsadewa/human-compiler) — A compiler for human language\. Paste text, get diagnostics\. Measured by TypeSafe Jev\.
 - [Jev Cookbook](https://github.com/nexibeo/jev-cookbook) — Runnable Node recipes that call Jev through OpenRouter's Decisions endpoint for classification jobs such as support-ticket routing, with confidence thresholds and human-review routing kept in code\.
 - [Jev for Chrome](https://github.com/chy4pro/jev-for-chrome) — Unofficial Chrome extension port of Jev Ultrafast in which Jev selects the browser operation and DOM target each step and a separate text model supplies typed text\.
+- [Jev Mac Voice](https://github.com/brudarko/jev-mac-voice) — Electron app for English voice control of macOS through OpenAI Realtime and a native Swift Accessibility bridge, with an optional browser command where TypeSafe Jev Choice, Noul, and Score questions pick the action, target, and completion check for Playwright to execute after policy and approval\.
 - [Jev Social](https://github.com/socai-io/jev-social) — Local Instagram and TikTok research app where TypeSafe Jev selects bounded socai CLI operations from observed state and deterministic code validates confidence before browser execution\.
 - [Jev Trade](https://github.com/aowang-ai/jev-trade) — Live Hyperliquid desk: each tick Jev answers Choice questions for long/short, open/close/hold, and leverage; application code quotes or sends no order\. Documents a dry-run path; a live key sends real orders\.
 - [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) — Python browser agent using Jev to select operations and DOM targets, with a separate text model for typing\.
@@ -111,8 +115,11 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ### Games
 
+- [jev-drone](https://github.com/RomanSlack/jev-drone) — Camera-only autonomous drone in MuJoCo with a small judgment model \(TypeSafe Jev\) in the loop at 2\.5Hz
 - [jev-plays-pokemon-red](https://github.com/valentynkit/jev-plays-pokemon-red) — Pokemon Red on PyBoy where deterministic code owns the route and arithmetic, Jev picks only at branches, and every battle turn's faint prediction is scored by Brier against RAM state\.
 - [PlayJev](https://github.com/OmniJev/PlayJev) — Qwen3\.5-0\.8B-Base fine-tuned on frames labelled by ten per-game search programs to play ten browser games from 448 px screenshots, reading a probability over each game's option list off one forward pass instead of generating text, and serving the Jev /v1/systemone request and response schema\.
+- [tsai-civ2](https://github.com/phyous/tsai-civ2) — An original Civilization II browser harness for TypeSafe Jev, with live decision probabilities and a Roman-themed spectator display\.
+- [tsai-sc](https://github.com/phyous/tsai-sc) — A TypeSafe System One harness for Strongarm, the first combat mission in the original StarCraft shareware campaign, with a game recording and Jev's actual action probabilities\.
 - [typesafe-snake](https://github.com/sorrycc/typesafe-snake) — Snake auto-played by TypeSafe's Jev model: one System One choice per tick, legal moves and facts generated in code
 
 ### Research
