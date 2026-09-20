@@ -1,0 +1,6 @@
+{
+  "name": "jevcal",
+  "repository": "abhixhek/jevcal",
+  "description": "Stop guessing confidence thresholds. jevcal measures a typed decision model on your data, picks the threshold that meets your accuracy target, tells you how much traffic still needs an LLM, and fails CI when a model update quietly breaks it.",
+  "category": "research"
+}
