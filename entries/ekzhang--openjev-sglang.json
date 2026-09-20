@@ -1,0 +1,6 @@
+{
+  "name": "openjev-sglang",
+  "repository": "ekzhang/openjev-sglang",
+  "description": "A server implementing the TypeSafe/Jev HTTP API with Qwen3.6-35B-A3B on SGLang.",
+  "category": "research"
+}
