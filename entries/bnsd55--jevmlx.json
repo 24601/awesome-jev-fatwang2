@@ -1,0 +1,6 @@
+{
+  "name": "jevmlx",
+  "repository": "bnsd55/jevmlx",
+  "description": "Asking an LLM for JSON means parsing what it wrote and retrying until it parses. jevmlx takes a schema of booleans, enums, and multi-selects, scores every allowed answer for every field in one forward pass, and assembles the JSON itself — valid by construction, every field with a probability.",
+  "category": "research"
+}
