@@ -1,0 +1,13 @@
+{
+  "name": "Soupbase",
+  "repository": "spoonnotfound/soupbase",
+  "description": "A lateral-thinking puzzle game where Jev Choice judgments answer player questions and assess proposed solutions, while application code requires supported facts, a coherent explanation, and sufficient confidence before marking a puzzle solved.",
+  "category": "games",
+  "evidence": [
+    "src/server/config.ts",
+    "src/server/model.ts",
+    "src/server/host.ts",
+    "src/server/guess.ts",
+    "src/shared/confidence.ts"
+  ]
+}
