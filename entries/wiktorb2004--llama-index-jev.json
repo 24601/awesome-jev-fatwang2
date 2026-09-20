@@ -1,0 +1,6 @@
+{
+  "name": "llama-index-jev",
+  "repository": "WiktorB2004/llama-index-jev",
+  "description": "Drop-in LlamaIndex reranker and router powered by TypeSafe Jev: typed Score / Choice answers, cheap compared to LLM-as-judge — not a Cohere or FlagEmbedding cross-encoder.",
+  "category": "integration"
+}
