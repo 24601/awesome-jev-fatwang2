@@ -1,0 +1,6 @@
+{
+  "name": "jev-rerank-bench",
+  "repository": "anessbelbati/jev-rerank-bench",
+  "description": "Can a decision model beat dedicated rerankers? TypeSafe Jev vs Cohere Rerank 4 vs ZeroEntropy zerank-2 vs a chat-model baseline: 14 datasets, every raw API response, bootstrap ranges on every gap.",
+  "category": "research"
+}
