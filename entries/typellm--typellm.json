@@ -1,0 +1,6 @@
+{
+  "name": "TypeLLM",
+  "repository": "TypeLLM/TypeLLM",
+  "description": "TypeLLM brings the same typed-decision interface as TypeSafe Jev to the open-source autoregressive models you already run—without a proprietary model API, model retraining, structured-output library, or manual KV-tensor management.",
+  "category": "sdk"
+}
