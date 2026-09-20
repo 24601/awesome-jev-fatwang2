@@ -1,0 +1,6 @@
+{
+  "name": "jev-doom-agent",
+  "repository": "lukaske/jev-doom-agent",
+  "description": "A TypeSafe Jev Choice decision—or an explicitly labeled deterministic offline policy—selects a tactical macro; the local motor controller turns that macro into Doom controls.",
+  "category": "games"
+}
