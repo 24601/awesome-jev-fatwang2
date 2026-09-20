@@ -1,0 +1,6 @@
+{
+  "name": "typesafe-mario",
+  "repository": "fhshaik/typesafe-mario",
+  "description": "An experimental controller that lets TypeSafe's Jev model directly choose NES controller inputs for the original Super Mario Bros.",
+  "category": "games"
+}
