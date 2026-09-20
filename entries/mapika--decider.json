@@ -1,0 +1,6 @@
+{
+  "name": "decider",
+  "repository": "Mapika/decider",
+  "description": "It is an open reproduction of the \"System One\" model class (TypeSafe AI's Jev), built on Qwen/Qwen3.5-2B-Base.",
+  "category": "research"
+}
