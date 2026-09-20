@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-105 projects.
+110 projects.
 
 ### SDKs
 
@@ -34,6 +34,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ### Integration
 
+- [cursor-clijev-compaction](https://github.com/kleosr/cursor-clijev-compaction) — TypeSafe Jev-scored context recovery for Cursor CLI \(agent\)\. Capture tool I/O, score keep/drop, re-inject after native compact\.
 - [dsh-jev-tools](https://github.com/HorusJiang/dsh-jev-tools) — DeepSeek Harness plugin that runs three automatic Jev judgments on the live session — pruning oversized tool output to the segments relevant to the request, screening fetched pages for instructions aimed at the model, and picking which skill fits the next step — and adds jev\_ask and a jev\_gate completion check that escalates every unclear answer\.
 - [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) — Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim\.
 - [ha-conversation-jev](https://github.com/luxus/ha-conversation-jev) — Home Assistant custom conversation agent: Jev \(TypeSafe System One, jev-latest\) classifies an utterance, then either calls a light service \(v0 fast path\) or hands off to the SpaceXAI Grok conversation agent\.
@@ -119,11 +120,14 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 ### Games
 
 - [jev-askable-arm](https://github.com/TarunTomar122/jev-askable-arm) — Zero-shot English goals on a sim Franka\. Jev chains hardcoded primitives\.
+- [jev-doom-agent](https://github.com/lukaske/jev-doom-agent) — A TypeSafe Jev Choice decision—or an explicitly labeled deterministic offline policy—selects a tactical macro; the local motor controller turns that macro into Doom controls\.
 - [jev-drone](https://github.com/RomanSlack/jev-drone) — Camera-only autonomous drone in MuJoCo with a small judgment model \(TypeSafe Jev\) in the loop at 2\.5Hz
+- [jev-gomoku](https://github.com/mizchi/jev-gomoku) — TypeSafe AI の System One モデル Jev を MoonBit から触るためのプレイグラウンド。 Jev は「文字列ではなく型付きの確率判断を返す」意思決定専用モデルです\(unstructured state in, typed probabilistic decisions out\)。
 - [jev-plays-pokemon-red](https://github.com/valentynkit/jev-plays-pokemon-red) — Pokemon Red on PyBoy where deterministic code owns the route and arithmetic, Jev picks only at branches, and every battle turn's faint prediction is scored by Brier against RAM state\.
 - [PlayJev](https://github.com/OmniJev/PlayJev) — Qwen3\.5-0\.8B-Base fine-tuned on frames labelled by ten per-game search programs to play ten browser games from 448 px screenshots, reading a probability over each game's option list off one forward pass instead of generating text, and serving the Jev /v1/systemone request and response schema\.
 - [tsai-civ2](https://github.com/phyous/tsai-civ2) — An original Civilization II browser harness for TypeSafe Jev, with live decision probabilities and a Roman-themed spectator display\.
 - [tsai-sc](https://github.com/phyous/tsai-sc) — A TypeSafe System One harness for Strongarm, the first combat mission in the original StarCraft shareware campaign, with a game recording and Jev's actual action probabilities\.
+- [typesafe-mario](https://github.com/fhshaik/typesafe-mario) — An experimental controller that lets TypeSafe's Jev model directly choose NES controller inputs for the original Super Mario Bros\.
 - [typesafe-snake](https://github.com/sorrycc/typesafe-snake) — Snake auto-played by TypeSafe's Jev model: one System One choice per tick, legal moves and facts generated in code
 
 ### Research
@@ -132,6 +136,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-secret-detection](https://github.com/teyhouse/jev-secret-detection) — Measures how well TypeSafe's Jev model spots real secret credentials in file snippets\.
 - [LitJev](https://github.com/zhengxuyu/litjev) — Open reproduction of Jev's decision layer on Qwen models that serves the Jev /v1/systemone request and response schema \(choice, score, noul\) from a local Hugging Face checkpoint by reading option logits instead of generating text, with an MMLU-Pro direct-answer benchmark\.
 - [openjev](https://github.com/razorback16/openjev) — Open, Jev-compatible System One decision server on DiffusionGemma
+- [openjev-sglang](https://github.com/ekzhang/openjev-sglang) — A server implementing the TypeSafe/Jev HTTP API with Qwen3\.6-35B-A3B on SGLang\.
 - [typesafe-ai-benchmark](https://github.com/iammrduncan/typesafe-ai-benchmark) — This benchmark runs Qwen 3\.8 27B on Cerebras and TypeSafe Jev side by side across seven synthetic workloads, with a separate local Needle 3 evaluation on the same contracts\.
 
 ## Submit a project
