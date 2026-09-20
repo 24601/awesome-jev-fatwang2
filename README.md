@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-86 projects.
+90 projects.
 
 ### SDKs
 
@@ -14,6 +14,8 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev](https://github.com/dannote/jev) — TypeSafe Jev for OTP: reply to Jev from a GenServer and pattern match on its answer
 - [jev-go](https://github.com/Gaurav-Gosain/jev-go) — Go client for TypeSafe's System One API and its model Jev: typed judgments and calibrated probabilities instead of generated text
 - [jev-go](https://github.com/Stumble/jev-go) — An independent Go SDK for TypeSafe AI's Jev / System One API\.
+- [jev-harness](https://github.com/AntonioCoppe/jev-harness) — A small TypeScript library that turns TypeSafe Jev answers into actions you can ship\.
+- [jev-tree](https://github.com/reachjalil/jev-tree) — Recursive Jev choice over a taxonomy\. Select from more than 255 options without breaking TypeSafe Jev's choice cap\.
 - [jevclient](https://github.com/AboveColin/jevclient) — Async Python client for TypeSafe Jev\. Typed questions in, probabilities and choices out, no prose to parse\.
 - [req\_llm](https://github.com/agentjido/req_llm) — A Req- and Finch-backed Elixir package that standardizes LLM API calls across providers, including a TypeSafe Jev provider with typed evaluation support\.
 - [swift-typesafe](https://github.com/ainame/swift-typesafe) — Swift 6\.4 SDK for TypeSafe AI, following the Python SDK's 0\.6\.0 API\.
@@ -87,11 +89,13 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ### Applications
 
+- [cua](https://github.com/aryaminus/cua) — Computer-use automation where an LLM discovers a UI flow once and it replays deterministically with no model in the loop; Jev answers the continue/stuck decision when discovery stops making progress\.
 - [Jev Cookbook](https://github.com/nexibeo/jev-cookbook) — Runnable Node recipes that call Jev through OpenRouter's Decisions endpoint for classification jobs such as support-ticket routing, with confidence thresholds and human-review routing kept in code\.
 - [Jev for Chrome](https://github.com/chy4pro/jev-for-chrome) — Unofficial Chrome extension port of Jev Ultrafast in which Jev selects the browser operation and DOM target each step and a separate text model supplies typed text\.
 - [Jev Social](https://github.com/socai-io/jev-social) — Local Instagram and TikTok research app where TypeSafe Jev selects bounded socai CLI operations from observed state and deterministic code validates confidence before browser execution\.
 - [Jev Trade](https://github.com/aowang-ai/jev-trade) — Live Hyperliquid desk: each tick Jev answers Choice questions for long/short, open/close/hold, and leverage; application code quotes or sends no order\. Documents a dry-run path; a live key sends real orders\.
 - [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) — Python browser agent using Jev to select operations and DOM targets, with a separate text model for typing\.
+- [Jev Web Analyzer](https://github.com/replynodes/jev-web-analyzer) — Analyzes a public SaaS landing page as clean Markdown and asks Jev ten bounded Choice questions about what a first-time visitor is likely to understand\.
 - [jev-skip](https://github.com/valentynkit/jev-skip) — Browser extension that reads the YouTube caption track and paints a per-segment sponsor probability on the seek bar before the intro ends, with no crowd database, reporting 77% of SponsorBlock's sponsor seconds caught over 23 videos at $0\.0008 a video\.
 - [jev-trader](https://github.com/jarrodwatts/jev-trader) — A TypeSafe Jev model watches the Kuru MON-USDC order book and answers buy or sell every \~300 ms\.
 - [Jev-Trades](https://github.com/zadescoxp/Jev-Trades) — A Next\.js dashboard for live crypto market data and TypeSafe-powered paper trading\.
