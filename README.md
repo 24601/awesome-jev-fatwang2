@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-149 projects.
+153 projects.
 
 ### SDKs
 
@@ -45,6 +45,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jcm-router](https://github.com/adarshmishra07/jcm-router) — A local proxy that sits between Claude Code and the Anthropic API and picks the model and effort level per message, using TypeSafe's Jev classifier\.
 - [Jev for Home Assistant](https://github.com/AboveColin/HA-Jev) — Home Assistant integration that turns Jev answers into sensors, adds four automation actions returning a probability, a choice with its distribution or a score, and provides a conversation agent for Assist that maps a spoken command onto Home Assistant's built-in intents\.
 - [Jev MCP](https://github.com/jkudish/jev-mcp) — MCP server that uses TypeSafe Jev for claim verification, content screening, and semantic candidate ranking\.
+- [jev-agent-skill-router](https://github.com/GodsBoy/jev-agent-skill-router) — Typed, confidence-aware agent skill routing with TypeSafe Jev\.
 - [jev-browser](https://github.com/Ying-Kai-Liao/jev-browser) — Browser automation where an LLM plans and Jev \(Typesafe System One\) decides\. Library, CLI and MCP server\.
 - [jev-ego](https://github.com/romaluev/jev-ego) — TypeScript browser agent for ego lite — Jev Ultrafast's indexed action space, without Chrome, Playwright, or Browser Harness\.
 - [jev-guard](https://github.com/ClemensSchartmueller/jev-guard) — jev-guard intercepts tool calls \(shell executions, file writes, patch applications, file reads, and directory inspections\) before execution, performs sub-millisecond local boundary and sensitive file checks, and utilizes TypeSafe AI's System One \(Jev\) model to evaluate blast radius, reversibility, and destructive potential\.
@@ -69,6 +70,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [tripwire](https://github.com/noelzappy/tripwire) — Judge every LLM response before the user sees it\. AI SDK middleware and OpenAI-compatible proxy\.
 - [Typesafe MCP](https://github.com/itsmostafa/typesafe-mcp) — MCP server that exposes TypeSafe Jev structured evaluations to coding agents and desktop clients\.
 - [typesafe-ai-rails](https://github.com/GenieRobot/typesafe-ai-rails) — Community Rails integration for TypeSafe AI's System One API, built on the community typesafe-sdk Ruby gem\.
+- [typesafe-jev-workflow](https://github.com/GiesN/typesafe-jev-workflow) — A small async LangGraph workflow that sends a mocked email to TypeSafe's Jev model, receives a typed Choice \(invoice or general\), and routes to a demo handler\.
 
 ### Developer tools
 
@@ -136,6 +138,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [typesafe-adblock](https://github.com/realZachi/typesafe-adblock) — 🧹 Fun project: a Chrome extension that asks a tiny AI decision model \(TypeSafe Jev\) "is this DOM element an ad?" and pops it off the page\. BYOK, no backend, not a real ad blocker\.
 - [typesafe-ai-playground](https://github.com/BunsDev/typesafe-ai-playground) — A community playground for TypeSafe AI's Jev: edit classification experiments, compare A/B inputs, route conversations, extract document fields, inspect code-policy decisions, and explore games and simulations built around typed model outputs\.
 - [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) — macOS computer-use tool using Jev to choose actions from OCR and accessibility state, with a separate model for free-text writing\.
+- [typesafe-jev](https://github.com/gtaras7/typesafe-jev) — A local screening workbench for a folder of CVs, built on TypeSafe's Jev model\.
 - [UI Generator Instinct Jev](https://github.com/joevidev/ui-generator-instinct-jev) — A demo app where the user describes a UI case in free text and Jev \(TypeSafe's System One model\) answers typed Choice/Noul/Score questions to pick and configure a real shadcn/ui component or page block, never generating code or copy\.
 - [unclutter](https://github.com/kitze/unclutter) — Jev classifies nonessential page elements through Vercel AI Gateway or TypeSafe AI directly; the extension stores and reapplies local hiding rules by page template\.
 
@@ -166,6 +169,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-eval-agent](https://github.com/vinilana/jev-eval-agent) — The repository exists to answer one question: how many steps does the agent need to finish the same task when the LLM picks the tool itself vs\. when Jev \(TypeSafe's classifier\) picks it?
 - [jev-phishing-bench](https://github.com/anisselbd/jev-phishing-bench) — Public, reproducible comparison of Jev \(TypeSafe AI's System One model, launched 15 September 2026\) against a classic LLM on one security decision: should an email agent click the link in this email?
 - [jev-rerank-bench](https://github.com/anessbelbati/jev-rerank-bench) — Can a decision model beat dedicated rerankers? TypeSafe Jev vs Cohere Rerank 4 vs ZeroEntropy zerank-2 vs a chat-model baseline: 14 datasets, every raw API response, bootstrap ranges on every gap\.
+- [jev-search-rerank-eval](https://github.com/zhuyansen/jev-search-rerank-eval) — Does a TypeSafe Jev rerank beat embedding search? Graded relevance eval \(9,831 pairs, 164 zh/en queries\) over the Agent Skills Hub catalog, with the judge-circularity bias measured\.
 - [jev-sec-bench](https://github.com/Gaurav-Gosain/jev-sec-bench) — Blind security benchmarks for Jev, TypeSafe's System One model: prompt injection and vulnerable code detection, built on jev-go
 - [jev-secret-detection](https://github.com/teyhouse/jev-secret-detection) — Measures how well TypeSafe's Jev model spots real secret credentials in file snippets\.
 - [jev-spam-eval](https://github.com/bitnovus/jev-spam-eval) — This repository explores how far TypeSafe's pretrained Jev model can go through zero-shot classification and context enrichment\.
