@@ -1,0 +1,6 @@
+{
+  "name": "jev-drone",
+  "repository": "RomanSlack/jev-drone",
+  "description": "Camera-only autonomous drone in MuJoCo with a small judgment model (TypeSafe Jev) in the loop at 2.5Hz",
+  "category": "games"
+}
