@@ -1,0 +1,6 @@
+{
+  "name": "agentic-harness-cli",
+  "repository": "powerpuff-kitty/agentic-harness-cli",
+  "description": "The decisions command family implements the offline deterministic boundary for the provider-neutral Decision Kernel contract pinned from the canonical repository.",
+  "category": "developer_tools"
+}
