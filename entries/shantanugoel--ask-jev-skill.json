@@ -1,0 +1,6 @@
+{
+  "name": "ask-jev-skill",
+  "repository": "shantanugoel/ask-jev-skill",
+  "description": "Hermes skill: call TypeSafe Jev (jev-latest) as a typed tiebreaker.",
+  "category": "integration"
+}
