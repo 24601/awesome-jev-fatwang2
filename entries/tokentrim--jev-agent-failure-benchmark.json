@@ -1,0 +1,6 @@
+{
+  "name": "jev-agent-failure-benchmark",
+  "repository": "TokenTrim/jev-agent-failure-benchmark",
+  "description": "This benchmarks Jev (Typesafe.ai) on the text subset of Who&When Pro, an agent-failure-attribution benchmark: given a failed multi-agent run, predict the responsible agent, the decisive step, and the error type.",
+  "category": "research"
+}
