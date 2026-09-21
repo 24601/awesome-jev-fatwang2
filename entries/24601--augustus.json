@@ -1,0 +1,13 @@
+{
+  "name": "Augustus",
+  "repository": "24601/Augustus",
+  "description": "Design-judgment skill for the decision-model class; TypeSafe Jev (System One) is the dominant exemplar for composition, question design, and validation gates.",
+  "category": "developer_tools",
+  "evidence": [
+    ".agents/skills/augustus/SKILL.md",
+    ".agents/skills/augustus/references/judgment-class.md",
+    ".agents/skills/augustus/references/question-design.md",
+    ".agents/skills/augustus/references/composition-algebra.md",
+    ".agents/skills/augustus/references/validation.md"
+  ]
+}
